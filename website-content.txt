@@ -1,0 +1,844 @@
+Ubong Eno Nkereuwem
+
+Human–Centered AI Researcher • Technical AI Product Manager • HCI Practitioner
+Focused on Trust, Autonomy, and Sociotechnical Intelligence
+
+I study how people understand, negotiate, and sometimes relinquish control to intelligent systems. My work examines how AI can be designed to strengthen human autonomy, support transparent and trustworthy decision-making, and reflect human values in contexts where cognitive load, uncertainty, and vulnerability shape behavior.
+
+My research spans human–AI interaction, trust calibration, adaptive explanation design, and sociotechnical systems, with a particular focus on education technology, accessibility, and global learner ecosystems. I am interested in how mental models of AI form over time, how interface cues shape reliance, and how design decisions influence user confidence and agency.
+
+Across industry and academic projects, I have worked on intelligent learning companions, AI-guided advising systems, digital service experience research, media accessibility, CSR dataset annotation, and ethical UX interventions for predictive recommendation systems. These experiences exposed me to a recurring pattern:
+AI often behaves confidently even when its reasoning is opaque, and users—especially those navigating uncertainty—may mistake confidence for correctness.
+
+This motivated my commitment to building AI systems that are transparent, interpretable, and psychologically supportive, particularly in high-stakes or cognitively demanding environments.
+
+⸻
+
+Research Interests
+
+Human–AI Interaction & Trust Calibration
+
+How humans infer system competence, form mental models of AI, and develop either over-reliance or under-reliance in decision contexts.
+
+Adaptive Explanations & User-Specific Transparency
+
+Tailoring explanation depth, framing, and cognitive alignment to users’ goals, literacy levels, uncertainty, and cultural backgrounds.
+
+Sociotechnical Fairness & Value-Sensitive Design
+
+Ensuring intelligent systems reflect human values and center user agency across diverse cultural, cognitive, and contextual realities.
+
+AI-Supported Learning & Decision Guidance
+
+Designing systems that help students and global learners navigate complex academic paths without overwhelming or restricting them.
+
+Longitudinal Autonomy & Algorithmic Influence
+
+Understanding how trust, reliance, and autonomy evolve across repeated interactions with AI.
+
+⸻
+
+What You Will Find on This Site
+	•	Projects & Case Studies
+A deep dive into my AI + HCI work across EdTech, accessibility, and sociotechnical contexts.
+	•	Research & Writing
+Conceptual work, applied research, and emerging lines of inquiry.
+	•	Publications & Drafts
+Current working manuscripts, ongoing empirical studies, and evolving theoretical frameworks.
+	•	Teaching, Mentoring & Leadership
+My work with learners, youth communities, and educational programs in Nigeria and the UK.
+	•	Why I Do This Work
+The intellectual and human motivations behind my research.
+	•	CV
+A full summary of my academic and professional background.
+
+⸻
+
+Contact
+
+Email: ubongenonkereuwem@gmail.com
+LinkedIn: https://www.linkedin.com/in/ubongeno
+
+⸻
+
+Academic Positioning Summary (for faculty who skim)
+
+I investigate how AI systems influence human judgment, autonomy, and decision trajectories. My work explores adaptive explanation design, trust calibration, and sociotechnical value alignment, particularly in educational and accessibility contexts. Using mixed methods, qualitative inquiry, and interpretability-informed prototyping, I study how mental models of AI form and evolve, and how design interventions can support human reasoning rather than displace it.
+
+
+
+
+
+
+
+About Me
+
+My work in Human–Centered AI is anchored in a simple but profound observation:
+intelligent systems shape human behavior in ways that often go unnoticed, especially for users navigating uncertainty, cognitive load, or systemic constraints.
+
+This insight emerged during a usability testing session I conducted with a neurodivergent user, whom I call Maria. She was autistic and relied on consistency and predictability to feel anchored when interacting with digital systems. During the session, she smiled each time the AI assistant behaved as expected. But when the system generated an unexpected suggestion, she hesitated. Over multiple interactions, something subtle yet unsettling happened: she began to defer to the system’s confidence even when its recommendations clearly contradicted her personal preferences.
+
+That moment shifted my trajectory. It revealed how an intelligent system’s aura of certainty can quietly displace human judgment, eroding autonomy not through force but through design. I realized that if AI is going to participate in everyday decision-making, it must be intentionally designed to reinforce—not override—human agency.
+
+⸻
+
+This realization guided my work as a Technical AI Product Manager. At Jourhney, I help build AI-driven learning and decision-support tools for global learners navigating complex academic, immigration, and career choices. These are not trivial contexts; they involve high emotional stakes, fragmented information, and substantial cognitive burden. In these systems, algorithmic misalignment can shape life trajectories.
+
+To address this, I focus on designing interactions that foreground:
+	•	transparent rationale
+	•	value-sensitive defaults
+	•	user-managed control boundaries
+	•	adaptive explanation cues
+	•	mechanisms that make system limitations visible
+	•	interactions that center user agency
+
+Through this work, I learned that ethical UX interventions—such as offering explanations or surfacing uncertainty—are necessary but insufficient. Industry often implements isolated ethical features without frameworks to measure their long-term impact on autonomy, trust calibration, mental model formation, and decision trajectories. This recognition became the intellectual foundation for my research aspirations:
+to develop empirical, longitudinal methods for evaluating how AI design influences human autonomy over time.
+
+⸻
+
+Alongside applied work, I strengthened my research foundation academically.
+
+During my Master’s degree at the University of Roehampton, I studied how organizations navigate ethical responsibility within digital innovation. My dissertation, which redesigned a digital food pickup system, explored how perceived time, interface transparency, and digital-predicted behavior shape trust and fairness evaluations. This experience revealed the complexity of sociotechnical trust: what users perceive as “fair” is often constructed through digital cues rather than objective metrics.
+
+At King’s College London, my Product Management program deepened my technical fluency in Python, SQL, and data modeling, and provided the methodological grounding to participate in AI design with both computational awareness and human-centered sensitivity. My capstone project with Sky—a WCAG/Ofcom-aligned AI accessibility feature—made clear how inclusion, autonomy, and algorithmic personalization must be approached as intertwined design considerations rather than separate layers.
+
+⸻
+
+Beyond formal education, I remain committed to knowledge-sharing as a form of community impact. I have mentored learners, led youth programs, and taught literacy and life-skills courses to students in Nigeria. These experiences continuously remind me that users of AI systems bring diverse cultural, emotional, and cognitive realities into their interactions. Designing AI for “average users” is not enough. Designing AI for real people, in real contexts, is the only ethical path.
+
+I also use writing—including a public-facing newsletter that explains AI ethics, HCI principles, and trust-aware design—to make these concepts accessible to early-career technologists and builders worldwide.
+
+⸻
+
+Today, my work spans three interconnected directions:
+	1.	Understanding how humans form and update mental models of AI systems, especially under uncertainty.
+	2.	Designing adaptive explanations and trust-calibrating interfaces that respond to user context, literacy, and goals.
+	3.	Investigating how autonomy, confidence, and value alignment evolve longitudinally during repeated human–AI interactions.
+
+My long-term goal is to help build a future where intelligent systems enhance human capability, preserve dignity, and expand access to opportunity across diverse and global contexts. I want to contribute to the theory, methods, and frameworks that ensure AI strengthens—not replaces—human judgment.
+
+⸻
+
+
+
+Projects and Case Studies
+
+My project work reflects a consistent thread: I use mixed-methods inquiry, sociotechnical reasoning, and ethical design practices to understand how intelligent systems influence, support, and sometimes interfere with human autonomy and decision-making. These case studies represent a blend of research, design, and computational awareness across EdTech, accessibility, and digital services.
+
+⸻
+
+1. Human–AI Learning Companion for International Students
+
+Role: Technical AI Product Manager & Human–Centered AI Researcher
+Domains: Decision Support, Explanation Design, Trust Calibration, Digital Learning Ecosystems
+Methods: Semi-structured interviews, cognitive mapping, interaction prototyping, behavioral analysis, explainability modeling
+
+Overview
+
+International students face complex educational decisions—program selection, visa processes, academic expectations, and career pathways—all while navigating unfamiliar cultural and institutional systems. These decisions involve uncertainty, high stakes, and emotional burden. My work on the AI Learning Companion examined how intelligent guidance systems can support clarity and confidence without inducing over-reliance.
+
+Problem Framing
+
+Most digital advising systems present recommendations without transparency. Students experiencing stress or limited familiarity with local academic structures often accept advice unquestioningly. The risk is twofold:
+	1.	Over-reliance due to cognitive load, perceived authority, or system confidence
+	2.	Erosion of agency when recommendations subtly nudge students toward predefined pathways
+
+My goal was to design an AI system that supports, not supplants, human judgment.
+
+⸻
+
+What I Did
+
+1. Researching Real Help-Seeking Behaviors
+I conducted interviews with international students to map:
+	•	uncertainty points
+	•	mental models of institutional processes
+	•	expectations of AI guidance
+	•	perceived emotional/life stakes of decisions
+
+Students frequently interpreted AI confidence as correctness, especially when overwhelmed.
+
+This echoed patterns I observed in other settings—such as Maria, an autistic user who gradually deferred to an AI system’s recommendations because it appeared “sure”—highlighting the universality of confidence bias in AI-mediated decision making.
+
+⸻
+
+2. Designing Adaptive Explanation Patterns
+I co-developed an explanation schema that adjusted based on:
+	•	question type
+	•	risk level
+	•	user uncertainty signals
+	•	amount of context the user provided
+	•	whether the user asked for justification or alternatives
+
+Examples included:
+	•	“reasoned recommendations”
+	•	“confidence-qualified suggestions”
+	•	“multiple-pathway explanations”
+	•	“limited knowledge disclosures”
+
+These aimed to support healthy skepticism and informed choice.
+
+⸻
+
+3. Introducing Autonomy-Preserving Interaction Boundaries
+I implemented features such as:
+	•	user-managed control settings
+	•	value-sensitive defaults
+	•	rationale prompts
+	•	calls to double-check institutional requirements
+	•	invitation to reflect (“Does this align with what you want?”)
+
+These were grounded in principles of FATE, sensemaking, and human–AI complementarity.
+
+⸻
+
+Outcomes
+	•	Increased student engagement with learning and advising content
+	•	Greater user awareness of system limitations
+	•	Reduced blind acceptance of system recommendations
+	•	Early evidence of trust calibration (users began questioning recommendations more thoughtfully)
+	•	Identification of behavioral clusters that now inform adaptive UI/UX flows
+
+⸻
+
+Scholarly Contribution
+
+This project helped refine my research agenda on:
+	•	trust drift over repeated human–AI interactions
+	•	explanation strategies tailored to user cognition
+	•	longitudinal measurement of autonomy and self-efficacy
+	•	sociotechnical design for opportunity access
+
+⸻
+
+2. Fast Track Food Pickup Digital Service (MSc Dissertation)
+
+Context: University of Roehampton, Distinction
+Domains: Digital Queuing, Perceived Fairness, Service Transparency, Sociotechnical Systems
+Methods: Mixed methods, interviews, surveys, thematic analysis, service blueprinting, UX evaluation
+
+Overview
+
+This research examined how digital interfaces influence perceptions of fairness, time, and service credibility. The project involved designing a digital Fast-Track pickup experience for a food service environment where bottlenecks and unclear feedback loops lowered overall user satisfaction.
+
+⸻
+
+Research Problem
+
+Across many digital ordering systems, the biggest complaints relate not to actual time but perceived wait time. This perception is shaped by:
+	•	transparency
+	•	environmental cues
+	•	interface feedback
+	•	trust in digital-to-physical handoff
+
+My research explored how perceived time, fairness, and trust are sociotechnically constructed.
+
+⸻
+
+What I Did
+
+1. Collected Mixed-Method Data
+	•	Surveys captured quantitative satisfaction indicators
+	•	Interviews revealed qualitative expectations and psychological factors
+	•	Observational workflow mapping contextualized digital behaviors within physical service realities
+
+⸻
+
+2. Evaluated Interface Trust Cues
+Findings showed that:
+	•	Time visibility improved perceived fairness
+	•	Users interpreted ambiguous cues as incompetence
+	•	Clear sequencing (order confirmed → preparing → ready) improved confidence
+	•	A lack of queue transparency led to distrust even when service was fast
+
+⸻
+
+3. Designed a Redesigned Service Blueprint
+The new blueprint provided:
+	•	prediction-based wait estimates
+	•	transparent service states
+	•	consistent feedback signage
+	•	UX patterns inspired by reliability and clarity principles
+
+Projected impact: ~35 percent improvement in perceived wait time.
+
+⸻
+
+Scholarly Contribution
+
+This project deepened my interest in:
+	•	sociotechnical fairness
+	•	digital representation of physical systems
+	•	psychological construction of time and waiting
+	•	trust as a hybrid of interface cues and environmental signals
+
+It served as my entry point into HCI research.
+
+⸻
+
+3. AI Accessibility Feature for Sky (Professional Certificate Capstone)
+
+Context: King’s College London
+Domains: Accessibility, AI Personalization, Inclusive Media Design, Regulation (WCAG, Ofcom)
+Methods: Accessibility heuristics, user story mapping, collaborative prototyping, regulatory analysis
+
+Overview
+
+In collaboration with Sky, I worked on designing an AI-powered media accessibility feature that adapted content presentation based on user needs while respecting regulatory frameworks.
+
+⸻
+
+What I Did
+
+1. Mapped Accessibility Needs
+Analyzed needs of users with:
+	•	sensory sensitivities
+	•	cognitive differences
+	•	reading/comprehension challenges
+
+⸻
+
+2. Developed Inclusive User Stories
+Stories emphasized:
+	•	control
+	•	comprehension
+	•	comfort
+	•	transparency and consent
+	•	ability to override automated adjustments
+
+⸻
+
+3. Balanced Personalization With User Autonomy
+The key tension was:
+Can AI personalize without becoming intrusive or paternalistic?
+
+I approached this by:
+	•	foregrounding user-set preferences
+	•	limiting unsolicited adjustments
+	•	ensuring explanations of automated behaviors
+	•	enabling predictable interaction patterns
+
+⸻
+
+Impact + Research Value
+
+This project revealed how accessibility, personalization, and value-sensitive design intersect. It strengthened my interest in:
+	•	cross-cultural accessibility
+	•	adaptive AI for diverse cognitive styles
+	•	ethical personalization frameworks
+
+⸻
+
+4. CSR Data Annotation & Ethical Dataset Construction (Isahit)
+
+Context: Paris-based AI dataset platform
+Domains: Dataset documentation, ambiguity resolution, bias detection, CSR thematic analysis
+Methods: Annotation studies, content categorization, reliability checks
+
+This work gave me hands-on experience with dataset ambiguity, annotation inconsistency, and the human labor behind AI data pipelines. I contributed to categorizing CSR-related content for training AI models and saw how labeling decisions propagate into model behavior.
+
+It reinforced my commitment to interpretability and highlighted the ethical responsibility embedded in data preprocessing.
+
+⸻
+
+5. Digital Equity & Development Research (Dataville)
+
+Domains: ICT4D, AI for Social Good, Development Studies
+Methods: Mixed methods, policy review, contextual analysis
+
+Explored how technology, policy, and sociotechnical context shape global inequities. This broadened my understanding of the systemic forces that influence AI access and fairness.
+
+⸻
+
+6. Data, Insight & Behavioral Analysis Work
+
+Across multiple roles, I conducted:
+	•	SQL/Python behavioral analysis
+	•	interaction pattern mining
+	•	service usage segmentation
+	•	simple predictive modeling to understand risk/uncertainty clusters
+	•	dashboard design for non-technical stakeholders
+
+These experiences strengthened my analytical lens and helped me frame AI design questions in empirical terms.
+
+
+
+
+
+Research & Writing
+
+My research examines how people interpret, trust, and collaborate with intelligent systems, and how sociotechnical design influences autonomy, judgment, and value alignment over time. I am particularly interested in contexts where users face uncertainty, emotional stakes, and information asymmetry—conditions that amplify the influence of AI recommendations.
+
+I approach Human–Centered AI through a mixed-methods lens that integrates cognitive psychology, behavioral science, HCI theory, and ethical design principles. My work is shaped by applied experience in EdTech, accessibility, and dataset construction; academic training in research and business management; and lived experience within diverse educational and community contexts.
+
+⸻
+
+Research Themes
+
+1. Mental Model Formation in Human–AI Interaction
+
+A central line of inquiry in my work explores how users form and update mental models of AI systems. I study how:
+	•	confidence signals
+	•	framing of recommendations
+	•	system transparency
+	•	explanation style
+	•	environmental uncertainty
+	•	cultural and cognitive context
+
+shape the mental models that users build about system competence, limitations, and intent.
+
+This interest began with a striking applied observation: in a test session, a neurodivergent user trusted an AI system implicitly—even when its suggestions contradicted her preferences—because the system appeared “confident.” This moment illuminated the subtle cognitive pathways through which AI can displace human judgment.
+
+I explore how design interventions—such as transparency cues, qualified suggestions, or revealed limitations—can support more accurate mental models.
+
+⸻
+
+2. Trust Calibration and Autonomy Preservation
+
+Trust in AI systems is often miscalibrated:
+	•	over-trust when users assume correctness based on perceived authority
+	•	under-trust when lack of transparency causes unnecessary skepticism
+
+My research focuses on building interfaces and interaction strategies that encourage calibrated trust—the alignment of user confidence with system competence.
+
+I study:
+	•	trust drift across repeated interactions
+	•	behavioral signals indicating over- or under-reliance
+	•	how interface framing and system behavior influence autonomy
+	•	design patterns that strengthen user sense of control
+
+This aligns with my professional work building value-sensitive defaults, user-managed settings, rationale explanations, and guardrails within AI-guided advising systems.
+
+⸻
+
+3. Adaptive Explanation Design
+
+Not all users benefit from the same explanation style or depth. My research investigates:
+	•	cognitively adaptive explanations
+	•	culturally aware explanation framing
+	•	how uncertainty disclosure affects comprehension
+	•	when to offer multi-pathway reasoning
+	•	how to support reflection without overwhelming users
+
+This connects to my work designing explanation schemas for EdTech systems that adjust based on question type, risk level, user uncertainty, and narrative cues.
+
+⸻
+
+4. Sociotechnical Fairness in AI-Supported Decision Systems
+
+Much of my research concerns decision-support systems in education—an emotionally and socially consequential domain.
+
+I study:
+	•	how AI nudges shape opportunity access
+	•	how predictive systems influence choice architecture
+	•	where bias can emerge from dataset construction (CSR labeling work)
+	•	how algorithmic recommendations intersect with cultural and structural inequities
+
+My work aims to develop frameworks for sociotechnical fairness that are not only mathematically grounded but also contextually aware and ethically interpretable.
+
+⸻
+
+5. Longitudinal Impact of Transparency and Ethical UX Interventions
+
+A rarely studied aspect of Human–Centered AI is the long-term effect of transparency interventions.
+
+Industry often implements:
+	•	explanations
+	•	clickable rationales
+	•	ethical defaults
+	•	recommended pathways
+	•	user settings for AI control
+
+but rarely measures how these affect user behavior over time.
+
+My research addresses this gap by exploring:
+	•	methods for measuring autonomy drift
+	•	trust calibration trajectories
+	•	value-alignment stability
+	•	cognitive fatigue and over-reliance over long-term system use
+
+This theme emerges directly from your SOP’s core insight: bridging the gap between ethical intention and measurable impact.
+
+⸻
+
+Graduate Research (University of Roehampton)
+
+Topic: Digital Ordering, Perceived Fairness, and Time Transparency
+
+Methods: Surveys, thematic analysis, contextual inquiry, service blueprinting
+
+My MSc dissertation investigated how digital service interfaces construct perceptions of fairness and credibility in semi-automated food pickup systems. I was motivated by the insight that users’ perceptions of waiting, order flow, and system reliability depend far more on interface cues and transparency structures than on actual operational time.
+
+
+Key Research Contributions:
+	•	identified that perceived wait time is a sociotechnical construct influenced by transparency, predictability, and environmental cues
+	•	conducted mixed-method research integrating qualitative interviews with descriptive analysis
+	•	developed a redesigned service blueprint projected to reduce perceived wait time by 35 percent
+	•	highlighted the role of psychological expectation management in service trust
+    •	Identified the disconnect between physical service realities and digital representations of queue management
+    •	Demonstrated how perceived fairness emerges from transparency, consistency, and expectation-setting
+    •	Mapped how ambiguous or missing feedback cues produce distrust and negative mental models
+    •	Proposed an improved service design projected to reduce perceived wait time by ~35%
+
+
+This project grounded my understanding of sociotechnical fairness and clarified my interest in psychological constructs such as expectation management and time perception in digital systems.
+
+⸻
+
+Undergraduate Research (University of Benin)
+
+Globalization and Local Development Dynamics
+
+Earlier research explored how global economic systems shape development outcomes in Akwa Ibom State. This project seeded my interest in:
+	•	structural inequities
+	•	decision systems shaped by policy
+	•	community-level impacts of large-scale systems
+
+It provided a foundational lens for understanding sociotechnical and socio-economic systems long before I entered HCI.
+
+⸻
+
+
+Applied Research Work
+
+My industry-aligned research threads include:
+
+Applied Research ,  Human-Centered AI and EdTech
+
+AI-Guided Learning & Advising Systems
+
+At Jourhney, I lead research on AI-guided decision-support systems that help international students navigate academic choices, visa constraints, funding pathways, and cultural transitions.
+
+This work revealed how vulnerable users, uncertain, overloaded, or unfamiliar with local systems, may over-trust AI recommendations. I designed interventions including:
+	•	rationale surfacing
+	•	limited-knowledge disclosures
+	•	user-managed settings
+	•	value-sensitive defaults
+	•	alternative-pathway explanations
+	•	cognitive offloading support
+
+These interventions were motivated by the same phenomenon I observed in my SOP case study involving an autistic user who gradually deferred to AI behavior due to system confidence.
+
+My applied research has therefore contributed to understanding autonomy drift, confidence mismatch, and the subtle displacement of human reasoning by AI.
+
+⸻
+
+AI Accessibility & Adaptive Personalization ,  Sky UK
+
+Methods: Accessibility research, regulatory analysis (WCAG/Ofcom), inclusive design
+
+In my professional certificate capstone, I collaborated with Sky to imagine an AI-powered accessibility feature tailored to sensory, cognitive, and linguistic needs.
+
+Research-driven contributions included:
+	•	Mapping accessibility barriers across diverse cognitive profiles
+	•	Designing adaptive content modification features aligned with user control
+	•	Evaluating the ethical boundary between personalization and paternalism
+	•	Aligning prototypes to WCAG and Ofcom regulatory frameworks
+
+This experience expanded my interest in inclusive AI, cross-cultural personalization, and the ethical implications of automated adaptation.
+
+⸻
+
+CSR Dataset Annotation & Ethical Data Work ,  Isahit
+
+Methods: Annotation studies, thematic categorization, bias identification
+
+My work in annotating CSR-related content for AI model training introduced me to challenges surrounding:
+	•	labeling ambiguity
+	•	annotation consistency
+	•	dataset bias
+	•	the interpretive labor that shapes AI behavior
+
+This deepened my sensitivity to the invisible human processes behind “ground truth” datasets and reinforced my interest in interpretability and dataset ethics.
+
+⸻
+
+Development Research ,  Dataville Research Institute
+
+My research at Dataville examined how ICT and data-driven systems influence social development outcomes. I analyzed the dynamics between:
+	•	policy frameworks
+	•	data collection practices
+	•	AI-driven development initiatives
+	•	digital equity and access
+
+This experience expanded my interest in global HCI, especially in communities with infrastructural, linguistic, or socioeconomic barriers.
+
+⸻
+
+Research Themes Under Development
+
+1. Autonomy Drift in Human–AI Collaboration
+
+How repeated AI interactions influence confidence, agency, and self-efficacy.
+
+2. Explanation Timing, Depth, and Framing
+
+Which explanation structures reduce blind reliance while still supporting clarity and cognitive ease.
+
+3. Value Alignment as a Dynamic Construct
+
+How user needs, moral reasoning, and goals change, and how AI can adapt responsibly.
+
+4. The Ethics of Guidance Systems in Education
+
+How students interpret algorithmic nudges and weigh them against personal goals.
+
+5. Longitudinal Evaluation Methods for Human–AI Interaction
+
+Developing techniques to measure autonomy, trust calibration, and cognitive shifts over time.
+
+⸻
+
+Methodological Approach
+
+My research integrates human–centered inquiry, behavioral analysis, and light computational prototyping. Core competencies include:
+
+Qualitative Methods
+	•	Semi-structured interviews
+	•	Thematic and inductive coding
+	•	Diary and longitudinal studies
+	•	Usability testing
+	•	Contextual inquiry
+	•	Journey mapping
+
+Quantitative Methods
+	•	Survey design
+	•	Descriptive and inferential analysis
+	•	Likert and psychometric considerations
+	•	Behavioral pattern analysis
+	•	Simple A-B comparison studies
+
+Sociotechnical & Design Methods
+	•	Value-sensitive design
+	•	Ethical UX intervention design
+	•	Trust calibration frameworks
+	•	Explanation architecture prototyping
+	•	Service blueprinting
+	•	Accessibility evaluation
+
+Technical Skills (Applied to Research)
+	•	Python for analysis and prototyping
+	•	SQL for interaction log mining
+	•	Low-fidelity interface prototyping (Figma, HTML/CSS/JS)
+	•	Annotation analysis and dataset critique
+
+⸻
+
+Working Theoretical Questions
+
+These are the guiding inquiries shaping my developing research agenda:
+	•	How do humans decide when to trust or question an intelligent system?
+	•	How do mental models of AI evolve over repeated interactions?
+	•	How can explanation structures be made sensitive to user context, risk, and goals?
+	•	What design cues prevent over-reliance without overwhelming users with complexity?
+	•	How can we measure the long-term impact of transparency interventions?
+	•	How does AI influence opportunity access, especially for international students and learners navigating opaque systems?
+	•	What does “value alignment” mean in everyday, non-expert AI interactions?
+
+⸻
+
+Long-Term Research Vision
+
+I aim to develop adaptive trust frameworks and evaluative methods that help designers and organizations build AI systems that:
+	•	support informed decision-making
+	•	prevent over-reliance
+	•	protect human judgment
+	•	adapt to cultural, cognitive, and contextual diversity
+	•	make system behavior legible and safe
+	•	respect and preserve human autonomy
+
+1. How trust, autonomy, and decision-making evolve during repeated interactions with AI
+
+and how these dynamics differ across cultural, cognitive, and socioeconomic contexts.
+
+2. How to design adaptive, context-sensitive explanation systems
+
+that support user understanding, reduce blind over-reliance, and respect cognitive diversity.
+
+3. How to operationalize value alignment in practical, measurable terms
+
+through interface design, defaults, and transparent system boundaries.
+
+4. How AI can expand opportunity access
+
+especially for learners navigating fragmented or high-stakes information ecosystems.
+
+5. How to develop longitudinal empirical frameworks
+
+that allow researchers to evaluate how AI systems shape real human behavior over time.
+
+6. Ultimately: A Human–Centered AI Research and Policy Lab
+
+focused on:
+	•	adaptive trust frameworks
+	•	international EdTech fairness
+	•	AI accessibility for neurodivergent users
+	•	sociotechnical evaluation methods
+	•	ethical algorithmic governance
+
+
+
+My career goal is to establish a research lab focused on Human–Centered AI for education, accessibility, and sociotechnical fairness, bridging academia, industry, and public policy.
+
+
+
+
+
+
+
+
+
+Teaching, Mentoring & Leadership
+
+Teaching and community leadership are foundational to my work as an HCI and Human–Centered AI researcher. My commitment to ethical AI is deeply informed by the years I spent working with learners, youth, and underserved communities. These experiences grounded my understanding of how people actually navigate systems, where confidence breaks down, and how structural and digital inequities shape decision-making.
+
+My teaching and mentoring history spans formal instruction, youth development programs, and community engagement initiatives.
+
+⸻
+
+Mercy Corps – ENGINE Program (Education, Nigeria)
+
+Role: Group Head, Literacy & Life Skills Instructor
+Focus: Empowerment, confidence-building, learning scaffolding
+
+As part of Mercy Corps’ ENGINE programme, I trained more than 100 adolescent girls across literacy, numeracy, and life skills. My work involved:
+	•	designing structured learning modules
+	•	facilitating small-group study sessions
+	•	identifying learners’ confidence gaps
+	•	supporting self-efficacy and personal agency
+	•	helping participants navigate educational transitions
+
+These learners often faced systemic and cultural barriers that shaped their engagement with information. Understanding how they interpreted guidance and how they built trust—both with people and with tools—was formative to my sensitivity to vulnerability in human–AI interaction.
+
+⸻
+
+DLCF Learning Program – Benin City
+
+Role: STS Teacher
+Focus: Collaborative learning, conceptual grounding, scaffolded instruction
+
+I taught secondary school students in a structured STS (Science, Technology, and Society) learning environment. I learned how learners form misconceptions, how they internalize explanations, and how teaching methods influence cognitive load and decision-making confidence.
+
+This work connects directly to my research on explanation design, mental model development, and decision pathways.
+
+⸻
+
+Truthsprout Nigeria – Country Director
+
+Focus: Youth empowerment, civic engagement, leadership development
+
+As Country Director, I oversee national programs focused on:
+	•	digital literacy
+	•	personal leadership development
+	•	civic responsibility
+	•	life-skills training
+	•	community-based mentorship models
+
+My role involves coordinating volunteers, designing program structures, and facilitating community partnerships. This leadership experience strengthens my commitment to developing AI systems that serve real communities, not abstract use cases.
+
+⸻
+
+Sustainable Merton – London
+
+Role: Volunteer
+Focus: Community sustainability, local engagement
+
+I participated in zero-waste initiatives, community gardening, and food distribution networks. These programs broadened my understanding of public-facing service ecosystems and how people interact with community-support infrastructure—experience that informs my research into human–AI collaboration in public contexts.
+
+⸻
+
+How Teaching Informs My Research
+
+Working with learners from different backgrounds taught me:
+	•	Autonomy is fragile in the presence of authoritative systems.
+	•	Explanation style deeply affects comprehension, confidence, and willingness to question.
+	•	Cultural and cognitive diversity shape how people interpret technology.
+	•	Users bring emotional, social, and contextual histories into interactions with AI.
+	•	Guidance systems must protect—not erode—human dignity.
+
+These insights form the human layer beneath my sociotechnical research on AI-supported learning, trust calibration, and value-aligned interaction design.
+
+⸻
+
+Why I Do This Work
+
+My commitment to Human–Centered AI was shaped by moments where I saw how easily intelligent systems can influence human decision-making—sometimes quietly, subtly, and without users realizing it.
+
+One defining moment was a research session involving an autistic user, whom I refer to as Maria. She relied on predictable patterns to anchor herself when interacting with digital tools. Each time the AI-generated suggestion matched her expectations, she smiled with relief. But when the system deviated, she paused, unsure how to interpret the deviation. Over multiple interactions, I watched her gradually defer to the AI—not out of trust earned but out of cognitive fatigue and perceived system authority.
+
+It was a stunning realization: AI systems do not need to be dominant to displace human judgment; they only need to be confident in the presence of user uncertainty.
+
+This moment crystallized the purpose behind my work:
+to design and study AI systems that reinforce autonomy, preserve self-determination, and strengthen—not overshadow—human reasoning.
+
+⸻
+
+The Deeper Problem I Want to Solve
+
+Across my work in EdTech, I saw how opaque recommendations from AI systems can influence educational pathways, career trajectories, and personal identity. Students often accept AI-generated suggestions because they feel lost, overwhelmed, or intimidated by complex institutional processes. In these cases:
+	•	AI becomes a silent decision-maker.
+	•	Users mistake confidence for correctness.
+	•	Human agency is gradually displaced.
+
+I designed transparency mechanisms, adaptive explanations, and value-sensitive defaults—but realized that ethical UX is only the first step. What we lack in industry is:
+	•	rigorous, longitudinal measurement of autonomy
+	•	models for evaluating trust drift
+	•	methods for detecting over-reliance
+	•	frameworks for supporting value aligment over time
+
+My research aims to address this gap directly.
+
+⸻
+
+My Purpose as a Researcher
+
+I pursue Human–Centered AI research because I want intelligent systems to participate in human life in ways that uphold:
+	•	dignity
+	•	agency
+	•	fairness
+	•	interpretability
+	•	emotional safety
+	•	long-term autonomy
+
+The communities I have taught and led—girls in Abuja, secondary school learners in Benin City, youth across Nigeria, vulnerable users in London—reinforce my belief that technology must adapt to the human being, not the other way around.
+
+My long-term goal is to help build theoretical frameworks, empirical methods, and design principles for AI systems that:
+	•	communicate uncertainty responsibly
+	•	adapt explanations to user cognition and cultural context
+	•	avoid nudging users into predetermined choices
+	•	preserve human decision authority
+	•	align with evolving human values
+	•	support learning, not dependency
+	•	respect cognitive differences and vulnerabilities
+
+I want to contribute to a future where users like Maria can interact with AI that strengthens—rather than diminishes—their confidence in their own judgment.
+
+⸻
+
+Academic Bios
+
+Micro Bio (25 words)
+
+Ubong Eno Nkereuwem researches Human–Centered AI, trust calibration, and sociotechnical systems. She studies how intelligent systems influence autonomy, decision-making, and opportunity access across educational and accessibility contexts.
+
+⸻
+
+Short Academic Bio (100 words)
+
+Ubong Eno Nkereuwem is a Human–Centered AI researcher and Technical AI Product Manager exploring how people build trust, form mental models, and maintain autonomy when interacting with intelligent systems. Her work examines AI-guided decision-making, transparency mechanisms, and adaptive explanations in complex sociotechnical environments, particularly in education and accessibility. She brings experience designing ethical AI features, value-sensitive defaults, and explainability tools at Jourhney and Sky, supported by research in CSR dataset annotation and digital services. Using mixed methods and sociotechnical analysis, she studies how AI systems can reinforce human judgment rather than displace it.
+
+⸻
+
+Full Academic Bio (200 words)
+
+Ubong Eno Nkereuwem is a researcher in Human–Centered AI whose work focuses on trust calibration, human autonomy, and sociotechnical systems. She studies how people interpret, rely on, and sometimes over-depend on intelligent systems, particularly in educational and accessibility contexts. Her interest in this problem emerged during applied research sessions where she observed vulnerable users gradually deferring to AI recommendations simply because the system presented itself as confident. This experience shaped her commitment to designing intelligent systems that reinforce user autonomy and support responsible decision-making.
+
+Her professional work as a Technical AI Product Manager spans AI-supported learning tools, adaptive guidance systems, transparency mechanisms, and ethical UX interventions. She brings technical fluency in Python, SQL, and data modeling, alongside experience in UX research and sociotechnical evaluation. Her academic foundation includes a Distinction MSc from the University of Roehampton and a Product Management Professional Certificate from King’s College London.
+
+Her research investigates adaptive explanations, mental model formation, and longitudinal autonomy in human–AI interaction. Ultimately, she aims to develop frameworks that ensure AI systems strengthen human reasoning, preserve dignity, and remain aligned with evolving human values across diverse contexts.
+
+
+
+
+
