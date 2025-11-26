@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="450" viewBox="0 0 800 450" role="img" aria-labelledby="title desc">
+  <title id="title">Human–AI Learning Companion thumbnail</title>
+  <desc id="desc">Abstract illustration representing a student using a guided AI interface.</desc>
+  <rect width="800" height="450" fill="#e6f0fa"/>
+  <rect x="80" y="80" width="640" height="290" rx="12" fill="#cddff5"/>
+  <rect x="120" y="120" width="280" height="210" rx="10" fill="#2c5282" opacity="0.12"/>
+  <rect x="430" y="120" width="230" height="60" rx="8" fill="#2c5282" opacity="0.18"/>
+  <rect x="430" y="200" width="230" height="40" rx="8" fill="#38a169" opacity="0.3"/>
+  <rect x="430" y="260" width="230" height="40" rx="8" fill="#2c5282" opacity="0.12"/>
+  <circle cx="180" cy="225" r="38" fill="#38a169" opacity="0.45"/>
+  <text x="400" y="380" font-family="Arial, sans-serif" font-size="28" fill="#2c5282" text-anchor="middle">AI Learning Companion</text>
+</svg>

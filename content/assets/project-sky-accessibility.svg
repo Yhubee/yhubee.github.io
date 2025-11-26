@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="450" viewBox="0 0 800 450" role="img" aria-labelledby="title desc">
+  <title id="title">AI accessibility feature thumbnail</title>
+  <desc id="desc">Abstract remote control and screen to represent personalized media accessibility.</desc>
+  <rect width="800" height="450" fill="#eef7f3"/>
+  <rect x="120" y="90" width="560" height="270" rx="16" fill="#c4e2d3"/>
+  <circle cx="210" cy="225" r="70" fill="#38a169" opacity="0.35"/>
+  <rect x="320" y="150" width="280" height="60" rx="12" fill="#2c5282" opacity="0.18"/>
+  <rect x="320" y="230" width="280" height="60" rx="12" fill="#2c5282" opacity="0.12"/>
+  <rect x="620" y="130" width="36" height="160" rx="10" fill="#2c5282" opacity="0.25"/>
+  <text x="400" y="380" font-family="Arial, sans-serif" font-size="26" fill="#2c5282" text-anchor="middle">Inclusive Media Controls</text>
+</svg>

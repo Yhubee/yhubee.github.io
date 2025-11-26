@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="450" viewBox="0 0 800 450" role="img" aria-labelledby="title desc">
+  <title id="title">Data insights thumbnail</title>
+  <desc id="desc">Charts and lines representing behavioral analytics and dashboards.</desc>
+  <rect width="800" height="450" fill="#f3f8f6"/>
+  <rect x="140" y="120" width="520" height="210" rx="14" fill="#d1e8dd"/>
+  <polyline points="170,300 250,200 330,240 410,160 490,220 570,150 650,230" fill="none" stroke="#2c5282" stroke-width="8" stroke-linecap="round" stroke-linejoin="round" opacity="0.7"/>
+  <line x1="200" y1="320" x2="600" y2="320" stroke="#38a169" stroke-width="10" stroke-linecap="round" opacity="0.4"/>
+  <text x="400" y="90" font-family="Arial, sans-serif" font-size="26" fill="#2c5282" text-anchor="middle">Behavioral Analysis &amp; Dashboards</text>
+</svg>

@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="450" viewBox="0 0 800 450" role="img" aria-labelledby="title desc">
+  <title id="title">CSR annotation thumbnail</title>
+  <desc id="desc">Icons representing labels and documents for dataset construction.</desc>
+  <rect width="800" height="450" fill="#f5f0f7"/>
+  <rect x="140" y="120" width="520" height="210" rx="14" fill="#dbcfe6"/>
+  <rect x="180" y="150" width="200" height="140" rx="12" fill="#2c5282" opacity="0.18"/>
+  <rect x="420" y="150" width="180" height="140" rx="12" fill="#38a169" opacity="0.3"/>
+  <circle cx="260" cy="220" r="22" fill="#2c5282" opacity="0.35"/>
+  <circle cx="500" cy="220" r="22" fill="#38a169" opacity="0.5"/>
+  <text x="400" y="360" font-family="Arial, sans-serif" font-size="26" fill="#2c5282" text-anchor="middle">Ethical Dataset Work</text>
+</svg>
