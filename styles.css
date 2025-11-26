@@ -455,6 +455,56 @@ main {
     margin-bottom: 0.5rem;
 }
 
+/* Table of Contents */
+.toc {
+    background: var(--background-alt);
+    border: 1px solid var(--border-color);
+    border-radius: 8px;
+    padding: 1.5rem;
+    margin-bottom: 2rem;
+}
+
+.toc h3 {
+    font-size: 1rem;
+    color: var(--primary-dark);
+    margin-bottom: 1rem;
+    padding-bottom: 0.5rem;
+    border-bottom: 2px solid var(--primary-color);
+}
+
+.toc ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.toc li {
+    margin-bottom: 0.5rem;
+}
+
+.toc a {
+    color: var(--primary-color);
+    font-size: 0.95rem;
+    display: inline-block;
+    padding: 0.25rem 0;
+    transition: color 0.2s ease, transform 0.2s ease;
+}
+
+.toc a:hover {
+    color: var(--primary-light);
+    transform: translateX(5px);
+}
+
+.toc a::before {
+    content: '→ ';
+    opacity: 0;
+    transition: opacity 0.2s ease;
+}
+
+.toc a:hover::before {
+    opacity: 1;
+}
+
 /* Footer */
 footer {
     background-color: var(--primary-dark);
