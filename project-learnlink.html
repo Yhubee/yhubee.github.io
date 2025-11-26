@@ -27,7 +27,7 @@
     <div class="page-header">
         <div class="container">
             <h1>LearnLink – Peer-to-Peer Skill Exchange Platform</h1>
-            <p class="lead">Building a cash-free, community-driven skill-swapping MVP with end-to-end full-stack delivery.</p>
+            <p class="lead">Cash-free, community skill swaps built as a fast, full-stack MVP.</p>
         </div>
     </div>
 
@@ -45,122 +45,79 @@
 
                 <section class="project-section">
                     <h2>Overview</h2>
-                    <p>LearnLink is a peer-to-peer educational platform that connects people who want to teach and learn skills in their local area. Users can offer skills like guitar, Python, or photography, find nearby skill-swappers, track progress, and build a learning network.</p>
-                    <p>It was built as a full-stack MVP, integrating course topics such as UX design, Agile collaboration, backend and frontend development, database design, and data visualisation.</p>
+                    <p>LearnLink pairs people who want to teach or learn skills nearby, letting them swap time instead of cash.</p>
+                    <p>The MVP combined UX, Agile delivery, and a simple data model to prove the peer-to-peer learning loop.</p>
                 </section>
 
                 <section class="project-section">
                     <h2>Challenge</h2>
-                    <p>Many people want to learn new skills but face barriers such as cost, access, and time. The goal was to create a collaborative, local, and cash-free skill-sharing tool that makes learning accessible, social, and efficient.</p>
+                    <p>Traditional courses can be expensive or rigid. We needed a lightweight way for people to share skills locally without payment.</p>
                 </section>
 
                 <section class="project-section">
                     <h2>Stakeholder Insights</h2>
                     <ul>
-                        <li>Learners feel limited by traditional platforms because of cost or rigid formats.</li>
-                        <li>Skill-holders want to teach but lack a structured way to offer their time.</li>
-                        <li>Communities want more local, inclusive, and informal learning experiences.</li>
+                        <li>Learners want affordable, flexible access.</li>
+                        <li>Skill-holders need a simple way to offer time.</li>
+                        <li>Communities value informal, local learning.</li>
                     </ul>
                 </section>
 
                 <section class="project-section">
                     <h2>Our Solution</h2>
-                    <p>A location-based web app that matches users who want to learn skills with others willing to teach them. Users create profiles, post skills they can offer or want to learn, and connect for in-person or online swaps. No money, only learning.</p>
+                    <p>A location-aware web app where users post skills to teach or learn, then connect for in-person or online swaps.</p>
                 </section>
 
                 <section class="project-section">
                     <h2>Key Features</h2>
                     <ul>
-                        <li>User authentication (signup / login).</li>
-                        <li>Location-based skill matchmaking.</li>
-                        <li>Persistent data via a relational database.</li>
-                        <li>Skill offer / request posting.</li>
-                        <li>Time-availability calendar.</li>
-                        <li>In-app messaging and request handling.</li>
-                        <li>Responsive frontend UI.</li>
+                        <li>Signup / login with profile setup.</li>
+                        <li>Location-based skill matchmaking and requests.</li>
+                        <li>Messaging, availability, and simple dashboards.</li>
+                        <li>Responsive UI powered by a PostgreSQL backend.</li>
                     </ul>
                 </section>
 
                 <section class="project-section">
-                    <h2>Backlog Items</h2>
+                    <h2>Backlog Highlights</h2>
                     <ul>
-                        <li>Profile ratings and reviews.</li>
-                        <li>Swap history and analytics.</li>
+                        <li>Ratings, swap history, and learning streaks.</li>
+                        <li>QR logging and social profile sharing.</li>
                         <li>Mobile app version.</li>
-                        <li>Social media profile sharing.</li>
-                        <li>Swap request flow before chat initiation.</li>
-                        <li>QR code-based session logging.</li>
-                        <li>General location display (Google Maps API).</li>
-                        <li>Visualisations like total learning time per skill and learning streaks.</li>
                     </ul>
                 </section>
 
                 <section class="project-section">
-                    <h2>Data Architecture</h2>
-                    <p>LearnLink uses a star schema with dimension and fact tables:</p>
+                    <h2>Technical Snapshot</h2>
                     <ul>
-                        <li><code>dim_user</code>: user profiles.</li>
-                        <li><code>dim_skill</code>: skill categories and descriptions.</li>
-                        <li><code>dim_time</code>: time breakdowns for learning sessions.</li>
-                        <li><code>facts_learning</code>: skills a user is learning.</li>
-                        <li><code>facts_teaching</code>: skills a user is teaching.</li>
-                        <li><code>facts_session</code>: logged peer-to-peer sessions.</li>
-                    </ul>
-                    <p>PostgreSQL stores the structured data that powers dashboard visualisations.</p>
-                </section>
-
-                <section class="project-section">
-                    <h2>Technical Architecture</h2>
-                    <ul>
-                        <li>Frontend: HTML, CSS, JavaScript.</li>
-                        <li>Backend: Node.js, Express, Socket.io.</li>
-                        <li>Database: SQL (PostgreSQL).</li>
-                        <li>Auth: Basic authentication with hashed passwords.</li>
-                        <li>Testing: Jest and Supertest.</li>
-                        <li>Deployment: Render / Netlify.</li>
-                        <li>Version control: Git + GitHub using feature-branch workflow.</li>
+                        <li>Stack: Node.js, Express, Socket.io, PostgreSQL, HTML/CSS/JS.</li>
+                        <li>Auth with hashed passwords; tested with Jest and Supertest.</li>
+                        <li>Deployed to Render / Netlify with feature-branch Git workflow.</li>
                     </ul>
                 </section>
 
                 <section class="project-section">
-                    <h2>Installation &amp; Local Run</h2>
+                    <h2>Install &amp; Run</h2>
                     <ol>
-                        <li>Clone: <code>git clone git@github.com:bbm2910/LearnLink.git</code>.</li>
-                        <li><code>cd LearnLink</code>.</li>
-                        <li><code>npm install</code>.</li>
-                        <li><code>cd server</code> and create a <code>.env</code> file with:
-                            <ul>
-                                <li><code>PORT=3000</code></li>
-                                <li><code>DB_URL='Your Database URL'</code></li>
-                            </ul>
-                        </li>
-                        <li>Start backend: <code>npm run dev</code> (runs on <code>http://localhost:3000</code>).</li>
+                        <li>Clone <code>git@github.com:bbm2910/LearnLink.git</code> and <code>cd LearnLink</code>.</li>
+                        <li><code>npm install</code>, then create <code>server/.env</code> with <code>PORT=3000</code> and your <code>DB_URL</code>.</li>
+                        <li>Start the backend with <code>npm run dev</code> and open <code>http://localhost:3000</code>.</li>
                     </ol>
                 </section>
 
                 <section class="project-section">
                     <h2>Using the App</h2>
                     <ul>
-                        <li>Sign up or log in.</li>
-                        <li>Add skills you can teach and skills you want to learn.</li>
-                        <li>Search or browse nearby skill-swappers.</li>
-                        <li>Connect and arrange your first skill swap.</li>
-                    </ul>
-                </section>
-
-                <section class="project-section">
-                    <h2>Development Process &amp; Tools</h2>
-                    <ul>
-                        <li>Agile methods and Git / GitHub.</li>
-                        <li>UX wireframing and design.</li>
-                        <li>MVC architecture and SQL schema design.</li>
-                        <li>Data visualisation using matplotlib and seaborn.</li>
+                        <li>Create a profile and list skills you can teach or want to learn.</li>
+                        <li>Find nearby matches and send requests.</li>
+                        <li>Chat, schedule, and log your swaps.</li>
                     </ul>
                 </section>
 
                 <section class="project-section">
                     <h2>Demo &amp; Resources</h2>
                     <p><strong>Video demo:</strong> <a href="https://www.youtube.com/watch?v=_-_wo3we8EQ" target="_blank" rel="noopener">Watch on YouTube</a></p>
+                    <p><strong>Demo deck:</strong> <a href="https://drive.google.com/file/d/1gG6G0bwT8F98P_vfv3aaHQ2xQs88D4F-/view" target="_blank" rel="noopener">View LearnLink walkthrough</a></p>
                     <p><strong>Repo:</strong> <code>git@github.com:bbm2910/LearnLink.git</code></p>
                     <p><strong>Sources:</strong> Illustrations from <a href="https://storyset.com/" target="_blank" rel="noopener">Storyset</a>.</p>
                 </section>
@@ -168,10 +125,9 @@
                 <section class="project-section">
                     <h2>Deliverables</h2>
                     <ul>
-                        <li>Stakeholder and solution analysis.</li>
-                        <li>Database schema (ERD).</li>
-                        <li>Wireframes and UI mock-ups.</li>
-                        <li>Deployed MVP and end-of-project presentation.</li>
+                        <li>Stakeholder analysis and solution framing.</li>
+                        <li>Database schema and wireframes.</li>
+                        <li>Deployed MVP and presentation.</li>
                     </ul>
                 </section>
 

@@ -27,7 +27,7 @@
     <div class="page-header">
         <div class="container">
             <h1>Beyond STEM – Learning Tool (Full-stack MVP)</h1>
-            <p class="lead">Re-engaging students in non-STEM subjects with a game-based, full-stack learning experience.</p>
+            <p class="lead">Game-based history cards that make non-STEM lessons stick.</p>
         </div>
     </div>
 
@@ -45,93 +45,82 @@
 
                 <section class="project-section">
                     <h2>Overview</h2>
-                    <p>Beyond STEM is a team-built educational tool designed to re-engage students in non-STEM subjects across a network of secondary schools. It was built as a full-stack MVP that combines UX design, Agile collaboration, backend and frontend development, and SQL database integration.</p>
+                    <p>Beyond STEM is a quick, game-based web app for non-STEM lessons, built to spark curiosity with short history fact cards.</p>
+                    <p>The MVP combined UX design, Agile delivery, and a lightweight SQL backend.</p>
                 </section>
 
                 <section class="project-section">
                     <h2>Challenge</h2>
-                    <p>The Hive group of schools reported decreased student interest and retention in non-STEM subjects. The mission was to create a fun digital solution that puts student enjoyment at the centre of the learning experience.</p>
+                    <p>Students were tuning out of non-STEM subjects. We needed a playful format that could fit into short lessons.</p>
                 </section>
 
                 <section class="project-section">
                     <h2>Stakeholder Insights</h2>
                     <ul>
-                        <li>Students are overwhelmed by repetitive lessons and struggle to retain information.</li>
-                        <li>Teachers report reduced lesson frequency and more superficial coverage.</li>
-                        <li>Parents see a drop in engagement and enjoyment.</li>
-                        <li>Leaders want to support holistic education and critical thinking.</li>
+                        <li>Students want novelty and quick wins.</li>
+                        <li>Teachers need low-friction content.</li>
+                        <li>Parents and leaders want visible engagement.</li>
                     </ul>
                 </section>
 
                 <section class="project-section">
                     <h2>Our Solution</h2>
-                    <p>An interactive, game-based web app that delivers non-STEM knowledge in bite-sized historical fact cards with images. Some facts lean into the weird and wonderful to tap into teens’ curiosity and love of the unexpected.</p>
+                    <p>A card-based game with unusual facts, images, and scoring to keep teens clicking while learning.</p>
                 </section>
 
                 <section class="project-section">
                     <h2>Key Features</h2>
                     <ul>
-                        <li>User authentication (signup / login).</li>
-                        <li>Fact-based learning game mechanics.</li>
-                        <li>Persistent data via a relational database.</li>
-                        <li>Responsive frontend and deployed full-stack app.</li>
+                        <li>Signup / login and saved progress.</li>
+                        <li>Fact cards with bite-sized history content.</li>
+                        <li>SQL-backed data and responsive frontend.</li>
                     </ul>
                 </section>
 
                 <section class="project-section">
-                    <h2>Backlog Items</h2>
+                    <h2>Backlog Highlights</h2>
                     <ul>
-                        <li>Multiple-choice quizzes and score tracking.</li>
-                        <li>Feedback and richer progress analytics.</li>
-                        <li>Admin / review access for teachers and parents.</li>
-                        <li>Extending to other non-STEM subjects.</li>
+                        <li>Quizzes, analytics, and class dashboards.</li>
+                        <li>Teacher / parent review controls.</li>
+                        <li>Additional non-STEM subjects.</li>
                     </ul>
                 </section>
 
                 <section class="project-section">
-                    <h2>Technical Architecture</h2>
+                    <h2>Technical Snapshot</h2>
                     <ul>
-                        <li>Frontend: HTML, CSS, JavaScript.</li>
-                        <li>Backend: Node.js, Express.</li>
-                        <li>Database: SQL.</li>
-                        <li>Auth: Basic auth with hashed passwords.</li>
-                        <li>Testing: Jest and Supertest (target 60%+, actual 78%).</li>
-                        <li>Deployment: Render / Netlify.</li>
-                        <li>Version control: Git + GitHub with feature-branch workflow.</li>
+                        <li>Stack: Node.js, Express, SQL, HTML/CSS/JS.</li>
+                        <li>Auth with hashed passwords; tested with Jest and Supertest (78% coverage).</li>
+                        <li>Deployed on Render / Netlify with feature-branch Git workflow.</li>
                     </ul>
                 </section>
 
                 <section class="project-section">
-                    <h2>Installation &amp; Local Run</h2>
+                    <h2>Install &amp; Run</h2>
                     <ol>
-                        <li>Clone: <code>git clone git@github.com:rafsanzi-ludhi/beyond_stem.git</code>.</li>
-                        <li><code>cd beyond_stem</code>.</li>
-                        <li><code>npm install</code>.</li>
-                        <li><code>cd server</code> and create <code>.env</code> with <code>PORT=3000</code> and <code>DB_URL</code>.</li>
-                        <li>Run <code>npm run dev</code> (backend on <code>http://localhost:3000</code>).</li>
+                        <li>Clone <code>git@github.com:rafsanzi-ludhi/beyond_stem.git</code> and <code>cd beyond_stem</code>.</li>
+                        <li><code>npm install</code>; add <code>PORT=3000</code> and <code>DB_URL</code> to <code>server/.env</code>.</li>
+                        <li>Start with <code>npm run dev</code> and open <code>http://localhost:3000</code>.</li>
                     </ol>
                 </section>
 
                 <section class="project-section">
                     <h2>API Endpoints</h2>
                     <ul>
-                        <li><code>GET '/'</code> – entry endpoint.</li>
-                        <li><code>GET '/history'</code> – get all history facts.</li>
-                        <li><code>GET '/history/:id'</code> – get one fact.</li>
-                        <li><code>POST '/history'</code> – create a new fact.</li>
-                        <li><code>PATCH '/history/:id'</code> – update a fact.</li>
-                        <li><code>DELETE '/history/:id'</code> – delete a fact.</li>
+                        <li><code>GET '/'</code> – entry point.</li>
+                        <li><code>GET '/history'</code> and <code>GET '/history/:id'</code> – list or fetch facts.</li>
+                        <li><code>POST</code>, <code>PATCH</code>, <code>DELETE '/history/:id'</code> – manage fact cards.</li>
                     </ul>
                 </section>
 
                 <section class="project-section">
                     <h2>Testing</h2>
-                    <p>Automated tests written with Jest and Supertest. Target coverage was 60%+, and the project achieved approximately 78% coverage.</p>
+                    <p>Jest and Supertest suites keep core flows above the 60% coverage target.</p>
                 </section>
 
                 <section class="project-section">
                     <h2>Demo &amp; Resources</h2>
-                    <p><strong>Slide deck:</strong> <a href="https://docs.google.com/presentation/d/1vPovzgD9mPHQ2CqyYKZza6ZV_3RAoaf6yUGA6tJaQ_Q/mobilepresent?slide=id.p10" target="_blank" rel="noopener">View Beyond STEM presentation</a></p>
+                    <p><strong>Demo deck:</strong> <a href="https://docs.google.com/presentation/d/1vPovzgD9mPHQ2CqyYKZza6ZV_3RAoaf6yUGA6tJaQ_Q/mobilepresent?slide=id.p10" target="_blank" rel="noopener">View Beyond STEM presentation</a></p>
                     <p><strong>Repo:</strong> <code>git@github.com:rafsanzi-ludhi/beyond_stem.git</code></p>
                     <p><strong>Image source:</strong> Illustrations from <a href="https://storyset.com/" target="_blank" rel="noopener">Storyset</a>.</p>
                 </section>
@@ -139,11 +128,9 @@
                 <section class="project-section">
                     <h2>Deliverables</h2>
                     <ul>
-                        <li>Stakeholder and solution analysis.</li>
-                        <li>Database schema (ERD).</li>
-                        <li>Wireframes and UI mock-ups.</li>
-                        <li>Deployed MVP of the educational tool.</li>
-                        <li>End-of-project team presentation.</li>
+                        <li>Stakeholder summary and solution sketch.</li>
+                        <li>Database schema, wireframes, and deployed MVP.</li>
+                        <li>Team presentation and demo deck.</li>
                     </ul>
                 </section>
 
