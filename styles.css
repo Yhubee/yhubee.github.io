@@ -429,6 +429,59 @@ main {
     font-size: 1rem;
 }
 
+/* Project overview summaries */
+.projects-section {
+    margin-top: 2rem;
+}
+
+.project-summary {
+    border-radius: 6px;
+    padding: 1.25rem 1.5rem;
+    background-color: #f7f9fc;
+    margin-bottom: 1rem;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.03);
+}
+
+.project-summary h3 {
+    margin: 0 0 0.25rem;
+    font-size: 1.2rem;
+}
+
+.project-summary h3 a {
+    text-decoration: none;
+    color: #0050a4;
+}
+
+.project-summary h3 a:hover,
+.project-summary h3 a:focus {
+    text-decoration: underline;
+}
+
+.project-summary-layout {
+    display: flex;
+    gap: 1rem;
+    align-items: flex-start;
+}
+
+.project-thumb {
+    width: 140px;
+    height: auto;
+    object-fit: cover;
+    border-radius: 4px;
+}
+
+.project-tagline {
+    margin: 0.25rem 0;
+    font-size: 0.96rem;
+    color: #333;
+}
+
+.project-meta {
+    margin: 0.15rem 0 0;
+    font-size: 0.85rem;
+    color: #666;
+}
+
 /* Project list redesign */
 .projects-list {
     display: flex;
@@ -454,14 +507,6 @@ main {
 
 .project-link:hover .project-cta {
     text-decoration: underline;
-}
-
-.project-thumb {
-    width: 200px;
-    height: auto;
-    object-fit: cover;
-    border-radius: 4px;
-    box-shadow: var(--shadow);
 }
 
 .project-copy h3 {
@@ -501,6 +546,27 @@ main {
     cursor: pointer;
     font-weight: 600;
     font-size: 1.1rem;
+}
+
+/* Project detail pages */
+.project-hero {
+    margin: 1.5rem 0 2rem;
+    padding: 1.25rem 1.5rem;
+    background-color: #f2f6ff;
+    border-left: 4px solid #0050a4;
+}
+
+.project-hero p {
+    margin: 0.15rem 0;
+}
+
+.back-to-projects {
+    margin: 1.5rem 0;
+    font-size: 0.9rem;
+}
+
+.back-to-projects a {
+    color: #0050a4;
 }
 
 /* Research Themes */
@@ -695,14 +761,21 @@ footer p {
     .card {
         padding: 1.25rem;
     }
-}
 
-@media (max-width: 600px) {
-    .project-item,
-    .project-link {
+    .project-summary {
+        padding: 1rem;
+    }
+
+    .project-summary-layout {
         flex-direction: column;
     }
 
+    .project-hero {
+        padding: 1rem;
+    }
+}
+
+@media (max-width: 600px) {
     .project-thumb {
         width: 100%;
     }
