@@ -117,6 +117,8 @@ hr {
     padding: 1.25rem 1.5rem;
     margin: 1.5rem 0 2rem;
     box-shadow: var(--shadow);
+    position: sticky;
+    top: 6rem;
 }
 
 .section-nav h3 {
@@ -159,6 +161,20 @@ hr {
     text-decoration: none;
 }
 
+@media (max-width: 1024px) {
+    .content-layout {
+        grid-template-columns: 1fr;
+    }
+
+    .section-nav {
+        position: static;
+    }
+
+    .primary-content {
+        max-width: 100%;
+    }
+}
+
 /* Layout */
 .container {
     max-width: var(--max-width);
@@ -167,8 +183,20 @@ hr {
 }
 
 .content-wrapper {
-    max-width: var(--content-width);
+    max-width: var(--max-width);
     margin: 0 auto;
+}
+
+.content-layout {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) 280px;
+    gap: 2rem;
+    align-items: start;
+}
+
+.primary-content {
+    max-width: var(--content-width);
+    width: 100%;
 }
 
 /* Header and Navigation */
