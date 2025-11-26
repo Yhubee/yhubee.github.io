@@ -375,22 +375,90 @@ main {
     min-height: calc(100vh - 200px);
 }
 
-.page-header {
-    text-align: center;
-    padding: 3rem 0;
-    background-color: var(--background-alt);
-    margin-bottom: 2rem;
+.page-hero {
+    position: relative;
+    color: white;
+    padding: 4rem 0 3rem;
+    overflow: hidden;
+    background-size: cover;
+    background-position: center;
 }
 
-.page-header h1 {
+.page-hero::after {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background: radial-gradient(circle at 20% 20%, rgba(255,255,255,0.08), transparent 25%),
+    radial-gradient(circle at 80% 0%, rgba(255,255,255,0.06), transparent 20%);
+    pointer-events: none;
+}
+
+.page-hero .container {
+    position: relative;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 1.5rem;
+    align-items: center;
+}
+
+.page-hero__copy h1 {
+    color: white;
+}
+
+.page-hero__copy .lead {
+    color: rgba(255, 255, 255, 0.92);
+    max-width: 620px;
+}
+
+.meta-chips {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    margin-top: 1rem;
+}
+
+.chip {
+    background: rgba(255, 255, 255, 0.12);
+    color: white;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    padding: 0.4rem 0.8rem;
+    border-radius: 999px;
+    font-size: 0.85rem;
+    backdrop-filter: blur(6px);
+}
+
+.page-hero__aside {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.page-hero__card {
+    background: rgba(255, 255, 255, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 16px;
+    padding: 1.25rem 1.5rem;
+    max-width: 360px;
+    color: white;
+    box-shadow: var(--shadow-lg);
+    backdrop-filter: blur(8px);
+}
+
+.page-hero__card .label {
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    font-size: 0.75rem;
+    color: rgba(255, 255, 255, 0.75);
+    margin-bottom: 0.25rem;
+}
+
+.page-hero__card .card-title {
+    font-weight: 700;
     margin-bottom: 0.5rem;
 }
 
-.page-header .lead {
-    font-size: 1.125rem;
-    color: var(--text-light);
-    max-width: 600px;
-    margin: 0 auto;
+.page-hero__card .card-detail {
+    color: rgba(255, 255, 255, 0.9);
+    margin: 0;
 }
 
 /* Cards and Sections */
