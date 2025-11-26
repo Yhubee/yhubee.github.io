@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Case study: Beyond STEM full-stack MVP for game-based learning in non-STEM subjects.">
+    <meta name="author" content="Ubong Eno Nkereuwem">
+    <title>Beyond STEM – Learning Tool | Ubong Eno Nkereuwem</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <a class="skip-link" href="#main-content">Skip to content</a>
+    <header>
+        <div class="container">
+            <a href="index.html" class="logo">Ubong Eno Nkereuwem</a>
+            <nav role="navigation" aria-label="Primary">
+                <a href="index.html">Home</a>
+                <a href="about.html">About</a>
+                <a href="projects.html" class="active" aria-current="page">Projects</a>
+                <a href="research.html">Research</a>
+                <a href="teaching.html">Teaching</a>
+                <a href="why.html">Why This Work</a>
+            </nav>
+        </div>
+    </header>
+
+    <div class="page-header">
+        <div class="container">
+            <h1>Beyond STEM – Learning Tool (Full-stack MVP)</h1>
+            <p class="lead">Re-engaging students in non-STEM subjects with a game-based, full-stack learning experience.</p>
+        </div>
+    </div>
+
+    <main id="main-content">
+        <div class="container">
+            <div class="content-wrapper">
+                <section class="project-hero">
+                    <p class="project-role"><strong>Role:</strong> Full-stack developer &amp; UX collaborator</p>
+                    <p class="project-context"><strong>Context:</strong> Week 5 Project Alpha at La Fosse</p>
+                    <p class="project-domains"><strong>Domains:</strong> Non-STEM education, game-based learning, engagement design</p>
+                    <p class="project-methods"><strong>Methods:</strong> Agile teamwork, UX design, full-stack implementation, SQL schema design, automated testing</p>
+                </section>
+
+                <p class="back-to-projects">← <a href="projects.html">Back to Projects &amp; Case Studies</a></p>
+
+                <section class="project-section">
+                    <h2>Overview</h2>
+                    <p>Beyond STEM is a team-built educational tool designed to re-engage students in non-STEM subjects across a network of secondary schools. It was built as a full-stack MVP that combines UX design, Agile collaboration, backend and frontend development, and SQL database integration.</p>
+                </section>
+
+                <section class="project-section">
+                    <h2>Challenge</h2>
+                    <p>The Hive group of schools reported decreased student interest and retention in non-STEM subjects. The mission was to create a fun digital solution that puts student enjoyment at the centre of the learning experience.</p>
+                </section>
+
+                <section class="project-section">
+                    <h2>Stakeholder Insights</h2>
+                    <ul>
+                        <li>Students are overwhelmed by repetitive lessons and struggle to retain information.</li>
+                        <li>Teachers report reduced lesson frequency and more superficial coverage.</li>
+                        <li>Parents see a drop in engagement and enjoyment.</li>
+                        <li>Leaders want to support holistic education and critical thinking.</li>
+                    </ul>
+                </section>
+
+                <section class="project-section">
+                    <h2>Our Solution</h2>
+                    <p>An interactive, game-based web app that delivers non-STEM knowledge in bite-sized historical fact cards with images. Some facts lean into the weird and wonderful to tap into teens’ curiosity and love of the unexpected.</p>
+                </section>
+
+                <section class="project-section">
+                    <h2>Key Features</h2>
+                    <ul>
+                        <li>User authentication (signup / login).</li>
+                        <li>Fact-based learning game mechanics.</li>
+                        <li>Persistent data via a relational database.</li>
+                        <li>Responsive frontend and deployed full-stack app.</li>
+                    </ul>
+                </section>
+
+                <section class="project-section">
+                    <h2>Backlog Items</h2>
+                    <ul>
+                        <li>Multiple-choice quizzes and score tracking.</li>
+                        <li>Feedback and richer progress analytics.</li>
+                        <li>Admin / review access for teachers and parents.</li>
+                        <li>Extending to other non-STEM subjects.</li>
+                    </ul>
+                </section>
+
+                <section class="project-section">
+                    <h2>Technical Architecture</h2>
+                    <ul>
+                        <li>Frontend: HTML, CSS, JavaScript.</li>
+                        <li>Backend: Node.js, Express.</li>
+                        <li>Database: SQL.</li>
+                        <li>Auth: Basic auth with hashed passwords.</li>
+                        <li>Testing: Jest and Supertest (target 60%+, actual 78%).</li>
+                        <li>Deployment: Render / Netlify.</li>
+                        <li>Version control: Git + GitHub with feature-branch workflow.</li>
+                    </ul>
+                </section>
+
+                <section class="project-section">
+                    <h2>Installation &amp; Local Run</h2>
+                    <ol>
+                        <li>Clone: <code>git clone git@github.com:rafsanzi-ludhi/beyond_stem.git</code>.</li>
+                        <li><code>cd beyond_stem</code>.</li>
+                        <li><code>npm install</code>.</li>
+                        <li><code>cd server</code> and create <code>.env</code> with <code>PORT=3000</code> and <code>DB_URL</code>.</li>
+                        <li>Run <code>npm run dev</code> (backend on <code>http://localhost:3000</code>).</li>
+                    </ol>
+                </section>
+
+                <section class="project-section">
+                    <h2>API Endpoints</h2>
+                    <ul>
+                        <li><code>GET '/'</code> – entry endpoint.</li>
+                        <li><code>GET '/history'</code> – get all history facts.</li>
+                        <li><code>GET '/history/:id'</code> – get one fact.</li>
+                        <li><code>POST '/history'</code> – create a new fact.</li>
+                        <li><code>PATCH '/history/:id'</code> – update a fact.</li>
+                        <li><code>DELETE '/history/:id'</code> – delete a fact.</li>
+                    </ul>
+                </section>
+
+                <section class="project-section">
+                    <h2>Testing</h2>
+                    <p>Automated tests written with Jest and Supertest. Target coverage was 60%+, and the project achieved approximately 78% coverage.</p>
+                </section>
+
+                <section class="project-section">
+                    <h2>Demo &amp; Resources</h2>
+                    <p><strong>Slide deck:</strong> <a href="https://docs.google.com/presentation/d/1vPovzgD9mPHQ2CqyYKZza6ZV_3RAoaf6yUGA6tJaQ_Q/mobilepresent?slide=id.p10" target="_blank" rel="noopener">View Beyond STEM presentation</a></p>
+                    <p><strong>Repo:</strong> <code>git@github.com:rafsanzi-ludhi/beyond_stem.git</code></p>
+                    <p><strong>Image source:</strong> Illustrations from <a href="https://storyset.com/" target="_blank" rel="noopener">Storyset</a>.</p>
+                </section>
+
+                <section class="project-section">
+                    <h2>Deliverables</h2>
+                    <ul>
+                        <li>Stakeholder and solution analysis.</li>
+                        <li>Database schema (ERD).</li>
+                        <li>Wireframes and UI mock-ups.</li>
+                        <li>Deployed MVP of the educational tool.</li>
+                        <li>End-of-project team presentation.</li>
+                    </ul>
+                </section>
+
+                <p class="back-to-projects">← <a href="projects.html">Back to Projects &amp; Case Studies</a></p>
+            </div>
+        </div>
+    </main>
+
+    <div data-include="footer.html"></div>
+    <script src="scripts.js"></script>
+</body>
+</html>
