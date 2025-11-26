@@ -9,14 +9,15 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+    <a class="skip-link" href="#main-content">Skip to content</a>
     <header>
         <div class="container">
             <a href="index.html" class="logo">Ubong Eno Nkereuwem</a>
-            <nav>
+            <nav role="navigation" aria-label="Primary">
                 <a href="index.html">Home</a>
                 <a href="about.html">About</a>
                 <a href="projects.html">Projects</a>
-                <a href="research.html" class="active">Research</a>
+                <a href="research.html" class="active" aria-current="page">Research</a>
                 <a href="teaching.html">Teaching</a>
                 <a href="why.html">Why This Work</a>
             </nav>
@@ -30,7 +31,7 @@
         </div>
     </div>
 
-    <main>
+    <main id="main-content">
         <div class="container">
             <div class="content-wrapper">
                 <p>My research examines how people interpret, trust, and collaborate with intelligent systems, and how sociotechnical design influences autonomy, judgment, and value alignment over time. I am particularly interested in contexts where users face uncertainty, emotional stakes, and information asymmetry—conditions that amplify the influence of AI recommendations.</p>
@@ -43,84 +44,99 @@
 
                 <div class="theme-card">
                     <h3>1. Mental Model Formation in Human–AI Interaction</h3>
-                    <p>A central line of inquiry in my work explores how users form and update mental models of AI systems. I study how:</p>
-                    <ul>
-                        <li>confidence signals</li>
-                        <li>framing of recommendations</li>
-                        <li>system transparency</li>
-                        <li>explanation style</li>
-                        <li>environmental uncertainty</li>
-                        <li>cultural and cognitive context</li>
-                    </ul>
-                    <p>shape the mental models that users build about system competence, limitations, and intent.</p>
-                    <p>This interest began with a striking applied observation: in a test session, a neurodivergent user trusted an AI system implicitly—even when its suggestions contradicted her preferences—because the system appeared "confident." This moment illuminated the subtle cognitive pathways through which AI can displace human judgment.</p>
-                    <p>I explore how design interventions—such as transparency cues, qualified suggestions, or revealed limitations—can support more accurate mental models.</p>
+                    <details class="theme-details">
+                        <summary>View details on this theme</summary>
+                        <p>A central line of inquiry in my work explores how users form and update mental models of AI systems. I study how:</p>
+                        <ul>
+                            <li>confidence signals</li>
+                            <li>framing of recommendations</li>
+                            <li>system transparency</li>
+                            <li>explanation style</li>
+                            <li>environmental uncertainty</li>
+                            <li>cultural and cognitive context</li>
+                        </ul>
+                        <p>shape the mental models that users build about system competence, limitations, and intent.</p>
+                        <p>This interest began with a striking applied observation: in a test session, a neurodivergent user trusted an AI system implicitly—even when its suggestions contradicted her preferences—because the system appeared "confident." This moment illuminated the subtle cognitive pathways through which AI can displace human judgment.</p>
+                        <p>I explore how design interventions—such as transparency cues, qualified suggestions, or revealed limitations—can support more accurate mental models.</p>
+                    </details>
                 </div>
 
                 <div class="theme-card">
                     <h3>2. Trust Calibration and Autonomy Preservation</h3>
-                    <p>Trust in AI systems is often miscalibrated:</p>
-                    <ul>
-                        <li><strong>over-trust</strong> when users assume correctness based on perceived authority</li>
-                        <li><strong>under-trust</strong> when lack of transparency causes unnecessary skepticism</li>
-                    </ul>
-                    <p>My research focuses on building interfaces and interaction strategies that encourage calibrated trust—the alignment of user confidence with system competence.</p>
-                    <p>I study:</p>
-                    <ul>
-                        <li>trust drift across repeated interactions</li>
-                        <li>behavioral signals indicating over- or under-reliance</li>
-                        <li>how interface framing and system behavior influence autonomy</li>
-                        <li>design patterns that strengthen user sense of control</li>
-                    </ul>
-                    <p>This aligns with my professional work building value-sensitive defaults, user-managed settings, rationale explanations, and guardrails within AI-guided advising systems.</p>
+                    <details class="theme-details">
+                        <summary>View details on calibrated trust</summary>
+                        <p>Trust in AI systems is often miscalibrated:</p>
+                        <ul>
+                            <li><strong>over-trust</strong> when users assume correctness based on perceived authority</li>
+                            <li><strong>under-trust</strong> when lack of transparency causes unnecessary skepticism</li>
+                        </ul>
+                        <p>My research focuses on building interfaces and interaction strategies that encourage calibrated trust—the alignment of user confidence with system competence.</p>
+                        <p>I study:</p>
+                        <ul>
+                            <li>trust drift across repeated interactions</li>
+                            <li>behavioral signals indicating over- or under-reliance</li>
+                            <li>how interface framing and system behavior influence autonomy</li>
+                            <li>design patterns that strengthen user sense of control</li>
+                        </ul>
+                        <p>This aligns with my professional work building value-sensitive defaults, user-managed settings, rationale explanations, and guardrails within AI-guided advising systems.</p>
+                    </details>
                 </div>
 
                 <div class="theme-card">
                     <h3>3. Adaptive Explanation Design</h3>
-                    <p>Not all users benefit from the same explanation style or depth. My research investigates:</p>
-                    <ul>
-                        <li>cognitively adaptive explanations</li>
-                        <li>culturally aware explanation framing</li>
-                        <li>how uncertainty disclosure affects comprehension</li>
-                        <li>when to offer multi-pathway reasoning</li>
-                        <li>how to support reflection without overwhelming users</li>
-                    </ul>
-                    <p>This connects to my work designing explanation schemas for EdTech systems that adjust based on question type, risk level, user uncertainty, and narrative cues.</p>
+                    <details class="theme-details">
+                        <summary>View details on explanation research</summary>
+                        <p>Not all users benefit from the same explanation style or depth. My research investigates:</p>
+                        <ul>
+                            <li>cognitively adaptive explanations</li>
+                            <li>culturally aware explanation framing</li>
+                            <li>how uncertainty disclosure affects comprehension</li>
+                            <li>when to offer multi-pathway reasoning</li>
+                            <li>how to support reflection without overwhelming users</li>
+                        </ul>
+                        <p>This connects to my work designing explanation schemas for EdTech systems that adjust based on question type, risk level, user uncertainty, and narrative cues.</p>
+                    </details>
                 </div>
 
                 <div class="theme-card">
                     <h3>4. Sociotechnical Fairness in AI-Supported Decision Systems</h3>
-                    <p>Much of my research concerns decision-support systems in education—an emotionally and socially consequential domain.</p>
-                    <p>I study:</p>
-                    <ul>
-                        <li>how AI nudges shape opportunity access</li>
-                        <li>how predictive systems influence choice architecture</li>
-                        <li>where bias can emerge from dataset construction (CSR labeling work)</li>
-                        <li>how algorithmic recommendations intersect with cultural and structural inequities</li>
-                    </ul>
-                    <p>My work aims to develop frameworks for sociotechnical fairness that are not only mathematically grounded but also contextually aware and ethically interpretable.</p>
+                    <details class="theme-details">
+                        <summary>View details on fairness</summary>
+                        <p>Much of my research concerns decision-support systems in education—an emotionally and socially consequential domain.</p>
+                        <p>I study:</p>
+                        <ul>
+                            <li>how AI nudges shape opportunity access</li>
+                            <li>how predictive systems influence choice architecture</li>
+                            <li>where bias can emerge from dataset construction (CSR labeling work)</li>
+                            <li>how algorithmic recommendations intersect with cultural and structural inequities</li>
+                        </ul>
+                        <p>My work aims to develop frameworks for sociotechnical fairness that are not only mathematically grounded but also contextually aware and ethically interpretable.</p>
+                    </details>
                 </div>
 
                 <div class="theme-card">
                     <h3>5. Longitudinal Impact of Transparency and Ethical UX Interventions</h3>
-                    <p>A rarely studied aspect of Human–Centered AI is the long-term effect of transparency interventions.</p>
-                    <p>Industry often implements:</p>
-                    <ul>
-                        <li>explanations</li>
-                        <li>clickable rationales</li>
-                        <li>ethical defaults</li>
-                        <li>recommended pathways</li>
-                        <li>user settings for AI control</li>
-                    </ul>
-                    <p>but rarely measures how these affect user behavior over time.</p>
-                    <p>My research addresses this gap by exploring:</p>
-                    <ul>
-                        <li>methods for measuring autonomy drift</li>
-                        <li>trust calibration trajectories</li>
-                        <li>value-alignment stability</li>
-                        <li>cognitive fatigue and over-reliance over long-term system use</li>
-                    </ul>
-                    <p>This theme emerges directly from a core insight: <strong>bridging the gap between ethical intention and measurable impact.</strong></p>
+                    <details class="theme-details">
+                        <summary>View details on longitudinal impact</summary>
+                        <p>A rarely studied aspect of Human–Centered AI is the long-term effect of transparency interventions.</p>
+                        <p>Industry often implements:</p>
+                        <ul>
+                            <li>explanations</li>
+                            <li>clickable rationales</li>
+                            <li>ethical defaults</li>
+                            <li>recommended pathways</li>
+                            <li>user settings for AI control</li>
+                        </ul>
+                        <p>but rarely measures how these affect user behavior over time.</p>
+                        <p>My research addresses this gap by exploring:</p>
+                        <ul>
+                            <li>methods for measuring autonomy drift</li>
+                            <li>trust calibration trajectories</li>
+                            <li>value-alignment stability</li>
+                            <li>cognitive fatigue and over-reliance over long-term system use</li>
+                        </ul>
+                        <p>This theme emerges directly from a core insight: <strong>bridging the gap between ethical intention and measurable impact.</strong></p>
+                    </details>
                 </div>
 
                 <hr>
@@ -164,6 +180,7 @@
                 <div class="card">
                     <h3>AI-Guided Learning & Advising Systems (Jourhney)</h3>
                     <p>At Jourhney, I lead research on AI-guided decision-support systems that help international students navigate academic choices, visa constraints, funding pathways, and cultural transitions.</p>
+                    <p>For a full case study, see the AI Learning Companion in <a href="projects.html#project-1">Projects &amp; Case Studies</a>.</p>
                     <p>This work revealed how vulnerable users—uncertain, overloaded, or unfamiliar with local systems—may over-trust AI recommendations. I designed interventions including:</p>
                     <ul>
                         <li>rationale surfacing</li>
@@ -180,6 +197,7 @@
                     <h3>AI Accessibility & Adaptive Personalization (Sky UK)</h3>
                     <p><strong>Methods:</strong> Accessibility research, regulatory analysis (WCAG/Ofcom), inclusive design</p>
                     <p>In my professional certificate capstone, I collaborated with Sky to imagine an AI-powered accessibility feature tailored to sensory, cognitive, and linguistic needs.</p>
+                    <p>Detailed design notes appear in the <a href="projects.html#project-3">AI Accessibility case study</a>.</p>
                     <p>Research-driven contributions included:</p>
                     <ul>
                         <li>Mapping accessibility barriers across diverse cognitive profiles</li>
@@ -194,6 +212,7 @@
                     <h3>CSR Dataset Annotation & Ethical Data Work (Isahit)</h3>
                     <p><strong>Methods:</strong> Annotation studies, thematic categorization, bias identification</p>
                     <p>My work in annotating CSR-related content for AI model training introduced me to challenges surrounding:</p>
+                    <p>Annotation lessons are summarized in the <a href="projects.html#project-4">CSR dataset project</a> case study.</p>
                     <ul>
                         <li>labeling ambiguity</li>
                         <li>annotation consistency</li>
@@ -325,26 +344,11 @@
                     <p>My career goal is to establish a research lab focused on Human–Centered AI for education, accessibility, and sociotechnical fairness—bridging academia, industry, and public policy.</p>
                 </div>
 
-                <div class="contact-info">
-                    <h3>Let's Connect</h3>
-                    <p>
-                        <a href="mailto:ubongenonkereuwem@gmail.com">ubongenonkereuwem@gmail.com</a>
-                        <br>
-                        <a href="https://www.linkedin.com/in/ubongeno" target="_blank" rel="noopener noreferrer">LinkedIn: linkedin.com/in/ubongeno</a>
-                    </p>
-                </div>
             </div>
         </div>
     </main>
 
-    <footer>
-        <div class="container">
-            <p>&copy; 2024 Ubong Eno Nkereuwem. All rights reserved.</p>
-            <p>
-                <a href="mailto:ubongenonkereuwem@gmail.com">Email</a> · 
-                <a href="https://www.linkedin.com/in/ubongeno" target="_blank" rel="noopener noreferrer">LinkedIn</a>
-            </p>
-        </div>
-    </footer>
+    <div data-include="footer.html"></div>
+    <script src="scripts.js"></script>
 </body>
 </html>

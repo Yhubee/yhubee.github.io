@@ -9,16 +9,17 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+    <a class="skip-link" href="#main-content">Skip to content</a>
     <header>
         <div class="container">
             <a href="index.html" class="logo">Ubong Eno Nkereuwem</a>
-            <nav>
+            <nav role="navigation" aria-label="Primary">
                 <a href="index.html">Home</a>
                 <a href="about.html">About</a>
                 <a href="projects.html">Projects</a>
                 <a href="research.html">Research</a>
                 <a href="teaching.html">Teaching</a>
-                <a href="why.html" class="active">Why This Work</a>
+                <a href="why.html" class="active" aria-current="page">Why This Work</a>
             </nav>
         </div>
     </header>
@@ -30,7 +31,7 @@
         </div>
     </div>
 
-    <main>
+    <main id="main-content">
         <div class="container">
             <div class="content-wrapper">
                 <p>My commitment to Human–Centered AI was shaped by moments where I saw how easily intelligent systems can influence human decision-making—sometimes quietly, subtly, and without users realizing it.</p>
@@ -123,26 +124,11 @@
                     <p>I want to contribute to a future where users like Maria can interact with AI that strengthens—rather than diminishes—their confidence in their own judgment.</p>
                 </div>
 
-                <div class="contact-info">
-                    <h3>Let's Connect</h3>
-                    <p>
-                        <a href="mailto:ubongenonkereuwem@gmail.com">ubongenonkereuwem@gmail.com</a>
-                        <br>
-                        <a href="https://www.linkedin.com/in/ubongeno" target="_blank" rel="noopener noreferrer">LinkedIn: linkedin.com/in/ubongeno</a>
-                    </p>
-                </div>
             </div>
         </div>
     </main>
 
-    <footer>
-        <div class="container">
-            <p>&copy; 2024 Ubong Eno Nkereuwem. All rights reserved.</p>
-            <p>
-                <a href="mailto:ubongenonkereuwem@gmail.com">Email</a> · 
-                <a href="https://www.linkedin.com/in/ubongeno" target="_blank" rel="noopener noreferrer">LinkedIn</a>
-            </p>
-        </div>
-    </footer>
+    <div data-include="footer.html"></div>
+    <script src="scripts.js"></script>
 </body>
 </html>
