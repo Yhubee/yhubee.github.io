@@ -578,8 +578,385 @@ footer p {
     }
 }
 
+/* ============================================
+   Animations
+   ============================================ */
+
+/* Keyframe Animations */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(30px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes fadeInDown {
+    from {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes scaleIn {
+    from {
+        opacity: 0;
+        transform: scale(0.9);
+    }
+    to {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+
+@keyframes slideInLeft {
+    from {
+        opacity: 0;
+        transform: translateX(-30px);
+    }
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+@keyframes slideInRight {
+    from {
+        opacity: 0;
+        transform: translateX(30px);
+    }
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+@keyframes pulse {
+    0%, 100% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.02);
+    }
+}
+
+@keyframes float {
+    0%, 100% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-10px);
+    }
+}
+
+/* Hero Section Animations */
+.hero {
+    animation: fadeIn 0.8s ease-out;
+}
+
+.hero-image {
+    animation: scaleIn 0.8s ease-out 0.2s both;
+    transition: transform 0.4s ease, box-shadow 0.4s ease;
+}
+
+.hero-image:hover {
+    transform: scale(1.05);
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.2);
+}
+
+.hero h1 {
+    animation: fadeInUp 0.6s ease-out 0.3s both;
+}
+
+.hero .subtitle {
+    animation: fadeInUp 0.6s ease-out 0.4s both;
+}
+
+.hero .tagline {
+    animation: fadeInUp 0.6s ease-out 0.5s both;
+}
+
+/* Page Header Animations */
+.page-header {
+    animation: fadeIn 0.6s ease-out;
+}
+
+.page-header h1 {
+    animation: fadeInDown 0.6s ease-out 0.2s both;
+}
+
+.page-header .lead {
+    animation: fadeInUp 0.6s ease-out 0.3s both;
+}
+
+/* Section Animations */
+.section {
+    animation: fadeInUp 0.6s ease-out both;
+}
+
+.section:nth-child(1) { animation-delay: 0.1s; }
+.section:nth-child(2) { animation-delay: 0.2s; }
+.section:nth-child(3) { animation-delay: 0.3s; }
+.section:nth-child(4) { animation-delay: 0.4s; }
+.section:nth-child(5) { animation-delay: 0.5s; }
+
+/* Card Animations */
+.card {
+    animation: fadeInUp 0.5s ease-out both;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+/* Interest Card Animations */
+.interest-card {
+    animation: fadeInUp 0.5s ease-out both;
+    transition: transform 0.3s ease, box-shadow 0.3s ease, border-left-color 0.3s ease;
+}
+
+.interests-grid .interest-card:nth-child(1) { animation-delay: 0.1s; }
+.interests-grid .interest-card:nth-child(2) { animation-delay: 0.15s; }
+.interests-grid .interest-card:nth-child(3) { animation-delay: 0.2s; }
+.interests-grid .interest-card:nth-child(4) { animation-delay: 0.25s; }
+.interests-grid .interest-card:nth-child(5) { animation-delay: 0.3s; }
+.interests-grid .interest-card:nth-child(6) { animation-delay: 0.35s; }
+
+.interest-card:hover {
+    transform: translateY(-5px) translateX(5px);
+    box-shadow: var(--shadow-lg);
+    border-left-color: var(--accent-color);
+}
+
+/* Navigation Card Animations */
+.nav-card {
+    animation: scaleIn 0.5s ease-out both;
+}
+
+.nav-cards .nav-card:nth-child(1) { animation-delay: 0.1s; }
+.nav-cards .nav-card:nth-child(2) { animation-delay: 0.15s; }
+.nav-cards .nav-card:nth-child(3) { animation-delay: 0.2s; }
+.nav-cards .nav-card:nth-child(4) { animation-delay: 0.25s; }
+.nav-cards .nav-card:nth-child(5) { animation-delay: 0.3s; }
+
+/* Project Card Animations */
+.project-card {
+    animation: fadeInUp 0.6s ease-out both;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.project-card:nth-child(1) { animation-delay: 0.1s; }
+.project-card:nth-child(2) { animation-delay: 0.2s; }
+.project-card:nth-child(3) { animation-delay: 0.3s; }
+.project-card:nth-child(4) { animation-delay: 0.4s; }
+.project-card:nth-child(5) { animation-delay: 0.5s; }
+.project-card:nth-child(6) { animation-delay: 0.6s; }
+
+.project-card:hover {
+    transform: translateY(-5px);
+}
+
+/* Theme Card Animations */
+.theme-card {
+    animation: slideInLeft 0.5s ease-out both;
+    transition: transform 0.3s ease;
+}
+
+.theme-card:nth-child(1) { animation-delay: 0.1s; }
+.theme-card:nth-child(2) { animation-delay: 0.2s; }
+.theme-card:nth-child(3) { animation-delay: 0.3s; }
+.theme-card:nth-child(4) { animation-delay: 0.4s; }
+.theme-card:nth-child(5) { animation-delay: 0.5s; }
+
+.theme-card:hover {
+    transform: translateX(10px);
+}
+
+/* Bio Card Animations */
+.bio-card {
+    animation: fadeInUp 0.5s ease-out both;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.bio-card:nth-child(1) { animation-delay: 0.1s; }
+.bio-card:nth-child(2) { animation-delay: 0.2s; }
+.bio-card:nth-child(3) { animation-delay: 0.3s; }
+
+.bio-card:hover {
+    transform: translateY(-3px);
+    box-shadow: var(--shadow);
+}
+
+/* Summary Box Animation */
+.summary-box {
+    animation: scaleIn 0.6s ease-out 0.3s both;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.summary-box:hover {
+    transform: scale(1.02);
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.15);
+}
+
+/* Contact Info Animation */
+.contact-info {
+    animation: fadeInUp 0.6s ease-out 0.4s both;
+    transition: transform 0.3s ease;
+}
+
+.contact-info:hover {
+    transform: scale(1.01);
+}
+
+/* Blockquote Animation */
+blockquote {
+    animation: slideInLeft 0.5s ease-out both;
+    transition: transform 0.3s ease, border-left-color 0.3s ease;
+}
+
+blockquote:hover {
+    transform: translateX(5px);
+    border-left-color: var(--accent-color);
+}
+
+/* About Page Intro Animation */
+.about-intro {
+    animation: fadeIn 0.6s ease-out both;
+}
+
+.about-image {
+    animation: scaleIn 0.6s ease-out 0.2s both;
+    transition: transform 0.4s ease, box-shadow 0.4s ease;
+}
+
+.about-image:hover {
+    transform: scale(1.03);
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.15);
+}
+
+/* Link Animations */
+a {
+    position: relative;
+    transition: color 0.3s ease;
+}
+
+nav a::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    width: 0;
+    height: 2px;
+    background-color: rgba(255, 255, 255, 0.5);
+    transition: width 0.3s ease, left 0.3s ease;
+}
+
+nav a:hover::after {
+    width: 80%;
+    left: 10%;
+}
+
+/* Content Link Underline Animation */
+main a:not(.nav-card):not(.nav-toggle) {
+    position: relative;
+}
+
+main a:not(.nav-card):not(.nav-toggle)::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background-color: var(--primary-light);
+    transition: width 0.3s ease;
+}
+
+main a:not(.nav-card):not(.nav-toggle):hover::after {
+    width: 100%;
+}
+
+main a:not(.nav-card):not(.nav-toggle):hover {
+    text-decoration: none;
+}
+
+/* Header Animation */
+header {
+    animation: fadeInDown 0.5s ease-out;
+}
+
+/* Footer Animation */
+footer {
+    animation: fadeIn 0.6s ease-out;
+}
+
+/* Horizontal Rule Animation */
+hr {
+    animation: fadeIn 0.5s ease-out;
+    transition: border-color 0.3s ease;
+}
+
+hr:hover {
+    border-color: var(--primary-light);
+}
+
+/* Logo Hover Animation */
+.logo {
+    transition: transform 0.3s ease, letter-spacing 0.3s ease;
+}
+
+.logo:hover {
+    transform: scale(1.02);
+    letter-spacing: 0.5px;
+}
+
+/* Project Meta Badge Animation */
+.project-meta span {
+    transition: background-color 0.3s ease, transform 0.3s ease, color 0.3s ease;
+}
+
+.project-meta span:hover {
+    background-color: var(--primary-color);
+    color: white;
+    transform: translateY(-2px);
+}
+
+/* Reduced Motion Support */
+@media (prefers-reduced-motion: reduce) {
+    *,
+    *::before,
+    *::after {
+        animation: none !important;
+        transition: none !important;
+    }
+}
+
 /* Print Styles */
 @media print {
+    *,
+    *::before,
+    *::after {
+        animation: none !important;
+        transition: none !important;
+    }
+    
     header, footer, nav {
         display: none;
     }
