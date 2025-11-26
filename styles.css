@@ -429,6 +429,80 @@ main {
     font-size: 1rem;
 }
 
+/* Project list redesign */
+.projects-list {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    margin: 2rem 0;
+}
+
+.project-item {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 1rem;
+}
+
+.project-link {
+    display: flex;
+    gap: 1rem;
+    align-items: flex-start;
+    color: inherit;
+    text-decoration: none;
+}
+
+.project-link:hover .project-cta {
+    text-decoration: underline;
+}
+
+.project-thumb {
+    width: 200px;
+    height: auto;
+    object-fit: cover;
+    border-radius: 4px;
+    box-shadow: var(--shadow);
+}
+
+.project-copy h3 {
+    margin: 0;
+    font-size: 1.25rem;
+    color: #004080;
+}
+
+.project-copy p {
+    margin: 0.5rem 0 0;
+    font-size: 0.95rem;
+    color: #333;
+}
+
+.project-cta {
+    display: inline-block;
+    margin-top: 0.5rem;
+    font-size: 0.9rem;
+    color: var(--primary-color);
+    font-weight: 600;
+}
+
+.project-details {
+    margin-top: 1.5rem;
+}
+
+.project-detail {
+    background: white;
+    border: 1px solid var(--border-color);
+    border-radius: 8px;
+    padding: 1.25rem 1.5rem;
+    margin-bottom: 1rem;
+    box-shadow: var(--shadow);
+}
+
+.project-detail summary {
+    cursor: pointer;
+    font-weight: 600;
+    font-size: 1.1rem;
+}
+
 /* Research Themes */
 .theme-card {
     margin-bottom: 2rem;
@@ -620,6 +694,17 @@ footer p {
     .project-card,
     .card {
         padding: 1.25rem;
+    }
+}
+
+@media (max-width: 600px) {
+    .project-item,
+    .project-link {
+        flex-direction: column;
+    }
+
+    .project-thumb {
+        width: 100%;
     }
 }
 
