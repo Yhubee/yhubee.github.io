@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>About | Ubong Eno Nkereuwem</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header>
+    <nav>
+      <div class="logo">Ubong Eno Nkereuwem <span>Human–Centered AI</span></div>
+      <div class="nav-links">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="projects.html">Projects</a>
+        <a href="research.html">Research</a>
+        <a href="publications.html">Publications</a>
+        <a href="contact.html">Contact</a>
+      </div>
+      <a class="cta-button" href="mailto:ubongenonkereuwem@gmail.com">Let’s Connect</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div>
+        <h1>About Me</h1>
+        <p class="tagline">I design and study AI systems that foreground human agency, transparency, and dignity.</p>
+        <div class="badges">
+          <span class="badge">Technical AI Product Manager</span>
+          <span class="badge">Human–Centered AI Researcher</span>
+          <span class="badge">HCI Practitioner</span>
+        </div>
+        <p>I study how intelligent systems shape human behavior—often invisibly—especially for people navigating uncertainty, cognitive load, or systemic constraints. My work centers the human motivations and design choices that keep autonomy intact.</p>
+      </div>
+      <div style="text-align:center;">
+        <img src="content/assets/ubong-eno.jpeg" alt="Ubong Eno Nkereuwem speaking" />
+      </div>
+    </section>
+
+    <section class="section">
+      <h2>Why I Do This Work</h2>
+      <p class="section-intro">While testing an AI assistant with a neurodivergent user, I saw how the system’s confidence nudged her to defer to its advice, even when it contradicted her preferences. That moment revealed how design can quietly displace human judgment, and it has driven my commitment to building AI that reinforces agency.</p>
+      <div class="grid">
+        <div class="card">
+          <h3>Industry Experience</h3>
+          <p>At Jourhney, I build AI-driven learning and decision-support tools for global learners navigating academic, immigration, and career choices—contexts where algorithmic misalignment can shape life trajectories.</p>
+        </div>
+        <div class="card">
+          <h3>Ethical UX Interventions</h3>
+          <p>I focus on transparent rationale, value-sensitive defaults, user-managed control boundaries, adaptive explanation cues, and mechanisms that make system limitations visible.</p>
+        </div>
+        <div class="card">
+          <h3>Community Impact</h3>
+          <p>Mentoring learners, leading youth programs, and teaching literacy and life-skills in Nigeria keep my research grounded in real human contexts.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section split">
+      <div>
+        <h2>Academic Formation</h2>
+        <div class="list">
+          <div class="card">
+            <h3>Master’s Degree · University of Roehampton</h3>
+            <p>Studied how organizations navigate ethical responsibility within digital innovation. Dissertation redesigned a digital food pickup system to explore how perceived time, interface transparency, and digital-predicted behavior shape trust and fairness evaluations.</p>
+          </div>
+          <div class="card">
+            <h3>Product Management · King’s College London</h3>
+            <p>Deepened technical fluency in Python, SQL, and data modeling, aligning AI design with human-centered sensitivity. Capstone with Sky delivered a WCAG/Ofcom-aligned AI accessibility feature.</p>
+          </div>
+          <div class="card">
+            <h3>Undergraduate Research · University of Benin</h3>
+            <p>Explored how global economic systems shape development outcomes in Akwa Ibom State, seeding my interest in structural inequities and sociotechnical systems.</p>
+          </div>
+        </div>
+      </div>
+      <div>
+        <h2>Today, My Work Focuses On</h2>
+        <ul class="list">
+          <li>Understanding how humans form and update mental models of AI systems, especially under uncertainty.</li>
+          <li>Designing adaptive explanations and trust-calibrating interfaces that respond to user context, literacy, and goals.</li>
+          <li>Investigating how autonomy, confidence, and value alignment evolve longitudinally during repeated human–AI interactions.</li>
+        </ul>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    © Ubong Eno Nkereuwem · Human–Centered AI & HCI · <a href="mailto:ubongenonkereuwem@gmail.com">Email</a> · <a href="https://www.linkedin.com/in/ubongeno" target="_blank" rel="noopener">LinkedIn</a>
+  </footer>
+  <script>
+    const path = location.pathname.split('/').pop() || 'index.html';
+    document.querySelectorAll('.nav-links a').forEach(link => {
+      if (link.getAttribute('href') === path) link.classList.add('active');
+    });
+  </script>
+</body>
+</html>

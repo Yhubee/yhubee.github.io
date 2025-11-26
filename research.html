@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Research | Ubong Eno Nkereuwem</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header>
+    <nav>
+      <div class="logo">Ubong Eno Nkereuwem <span>Human–Centered AI</span></div>
+      <div class="nav-links">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="projects.html">Projects</a>
+        <a href="research.html">Research</a>
+        <a href="publications.html">Publications</a>
+        <a href="contact.html">Contact</a>
+      </div>
+      <a class="cta-button" href="mailto:ubongenonkereuwem@gmail.com">Let’s Connect</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div>
+        <h1>Research Agenda</h1>
+        <p class="tagline">Human–AI interaction, trust calibration, adaptive explanations, and sociotechnical value alignment.</p>
+        <p class="subtitle">My work examines how AI can be designed to strengthen human autonomy, support transparent decision-making, and reflect human values in cognitively demanding environments.</p>
+      </div>
+    </section>
+
+    <section class="section">
+      <h2>Core Themes</h2>
+      <div class="grid">
+        <div class="card">
+          <h3>Human–AI Interaction & Trust Calibration</h3>
+          <p>How humans infer system competence, form mental models, and develop patterns of over-reliance or under-reliance across repeated interactions.</p>
+        </div>
+        <div class="card">
+          <h3>Adaptive Explanation Design</h3>
+          <p>Investigating cognitively adaptive and culturally aware explanations, uncertainty disclosures, and multi-pathway reasoning that support reflection without overload.</p>
+        </div>
+        <div class="card">
+          <h3>Sociotechnical Fairness</h3>
+          <p>Designing AI that respects diverse cultural and contextual realities, with value-sensitive defaults, user-managed settings, and visible system limitations.</p>
+        </div>
+        <div class="card">
+          <h3>Longitudinal Autonomy</h3>
+          <p>Measuring autonomy drift, trust trajectories, and value-alignment stability during long-term system use, especially in education and accessibility contexts.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <h2>Applied Research Threads</h2>
+      <div class="grid">
+        <div class="card">
+          <h3>AI-Guided Learning & Advising</h3>
+          <p>Researching rationale surfacing, limited-knowledge disclosures, user-managed settings, and alternative-pathway explanations for international students.</p>
+        </div>
+        <div class="card">
+          <h3>Autonomy-Preserving Interfaces</h3>
+          <p>Developing value-sensitive defaults, boundary-setting controls, and cues that invite users to reflect on alignment rather than defer to AI confidence.</p>
+        </div>
+        <div class="card">
+          <h3>Transparency Impact Over Time</h3>
+          <p>Studying how explanations, ethical defaults, and recommended pathways affect trust calibration, cognitive fatigue, and reliance over repeated use.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section split">
+      <div>
+        <h2>Graduate Research · University of Roehampton</h2>
+        <p>Dissertation on digital ordering, perceived fairness, and time transparency. Identified how perceived wait time is constructed by transparency, predictability, and environmental cues, and proposed a redesigned service blueprint projected to reduce perceived wait by ~35%.</p>
+      </div>
+      <div>
+        <h2>Undergraduate Research · University of Benin</h2>
+        <p>Explored how global economic systems shape development outcomes in Akwa Ibom State, forming a foundation for understanding sociotechnical and socio-economic systems.</p>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    © Ubong Eno Nkereuwem · Human–Centered AI & HCI · <a href="mailto:ubongenonkereuwem@gmail.com">Email</a> · <a href="https://www.linkedin.com/in/ubongeno" target="_blank" rel="noopener">LinkedIn</a>
+  </footer>
+  <script>
+    const path = location.pathname.split('/').pop() || 'index.html';
+    document.querySelectorAll('.nav-links a').forEach(link => {
+      if (link.getAttribute('href') === path) link.classList.add('active');
+    });
+  </script>
+</body>
+</html>

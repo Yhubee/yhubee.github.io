@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Ubong Eno Nkereuwem | Human-Centered AI & HCI</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header>
+    <nav>
+      <div class="logo">Ubong Eno Nkereuwem <span>Human–Centered AI</span></div>
+      <div class="nav-links">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="projects.html">Projects</a>
+        <a href="research.html">Research</a>
+        <a href="publications.html">Publications</a>
+        <a href="contact.html">Contact</a>
+      </div>
+      <a class="cta-button" href="mailto:ubongenonkereuwem@gmail.com">Let’s Connect</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div>
+        <h1>Human–Centered AI Researcher & Technical AI Product Manager</h1>
+        <p class="subtitle">Focused on Trust, Autonomy, and Sociotechnical Intelligence</p>
+        <p class="tagline">I study how people understand, negotiate, and sometimes relinquish control to intelligent systems—building AI that strengthens human judgment, clarity, and agency.</p>
+        <div class="badges">
+          <span class="badge">Human–AI Interaction</span>
+          <span class="badge">Trust Calibration</span>
+          <span class="badge">Adaptive Explanations</span>
+          <span class="badge">Sociotechnical Fairness</span>
+          <span class="badge">AI-Supported Learning</span>
+        </div>
+        <div class="hero-buttons">
+          <a class="cta-button" href="projects.html">View Projects</a>
+          <a class="cta-button" href="research.html" style="background: var(--card); color: var(--text); box-shadow: none;">Research Agenda</a>
+        </div>
+      </div>
+      <div style="text-align:center;">
+        <img src="content/assets/ubong-headshot.jpeg" alt="Portrait of Ubong Eno Nkereuwem" />
+      </div>
+    </section>
+
+    <section class="section">
+      <h2>Academic Positioning</h2>
+      <p class="section-intro">I investigate how AI systems influence human judgment, autonomy, and decision trajectories. Using mixed methods, qualitative inquiry, and interpretability-informed prototyping, I study how mental models of AI form and evolve—and how design interventions can support human reasoning rather than displace it.</p>
+      <div class="grid">
+        <div class="card">
+          <h3>Trust & Reliance</h3>
+          <p>How humans infer system competence, form mental models of AI, and develop over- or under-reliance in consequential contexts.</p>
+        </div>
+        <div class="card">
+          <h3>Adaptive Explanations</h3>
+          <p>Tailoring explanation depth, framing, and cognitive alignment to user goals, literacy levels, uncertainty, and cultural backgrounds.</p>
+        </div>
+        <div class="card">
+          <h3>Value-Sensitive AI</h3>
+          <p>Designing systems that respect human agency across diverse realities, making limitations visible and aligning defaults to user values.</p>
+        </div>
+        <div class="card">
+          <h3>AI-Supported Learning</h3>
+          <p>Building decision guidance that helps global learners navigate complex academic paths without overwhelming or restricting them.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <h2>Highlights</h2>
+      <div class="grid">
+        <div class="card">
+          <h3>AI Learning Companion</h3>
+          <p>Designed autonomy-preserving guidance for international students, combining adaptive explanations, rationale prompts, and user-managed controls to reduce blind acceptance of recommendations.</p>
+          <p class="small">Decision Support · Trust Calibration · EdTech</p>
+        </div>
+        <div class="card">
+          <h3>Fast Track Food Pickup</h3>
+          <p>Mixed-method dissertation on how transparency and feedback cues shape perceived fairness and wait time in digital queuing systems, projecting a ~35% improvement in perceived wait time.</p>
+          <p class="small">Service Transparency · Sociotechnical Systems</p>
+        </div>
+        <div class="card">
+          <h3>AI Accessibility with Sky</h3>
+          <p>Co-designed AI-powered media accessibility features balancing personalization with user autonomy, aligned with WCAG and Ofcom guidance.</p>
+          <p class="small">Inclusive Media · Algorithmic Consent</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <h2>What You Will Find</h2>
+      <div class="grid">
+        <div class="card">
+          <h3>Projects & Case Studies</h3>
+          <p>Deep dives into AI + HCI work across EdTech, accessibility, and sociotechnical contexts.</p>
+        </div>
+        <div class="card">
+          <h3>Research & Writing</h3>
+          <p>Conceptual work, applied research, and emerging lines of inquiry on trust, autonomy, and transparency.</p>
+        </div>
+        <div class="card">
+          <h3>Teaching & Mentoring</h3>
+          <p>Leadership in youth programs and learner support across Nigeria and the UK, translating HCI principles into practice.</p>
+        </div>
+        <div class="card">
+          <h3>CV & Contact</h3>
+          <p>Academic and professional background plus how to reach me for collaborations.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <h2>Human Motivation</h2>
+      <div class="quote">“AI often behaves confidently even when its reasoning is opaque, and users—especially those navigating uncertainty—may mistake confidence for correctness. My goal is to build AI that reinforces—not overrides—human agency.”</div>
+    </section>
+  </main>
+
+  <footer>
+    © Ubong Eno Nkereuwem · Human–Centered AI & HCI · <a href="mailto:ubongenonkereuwem@gmail.com">Email</a> · <a href="https://www.linkedin.com/in/ubongeno" target="_blank" rel="noopener">LinkedIn</a>
+  </footer>
+  <script>
+    const path = location.pathname.split('/').pop() || 'index.html';
+    document.querySelectorAll('.nav-links a').forEach(link => {
+      if (link.getAttribute('href') === path) link.classList.add('active');
+    });
+  </script>
+</body>
+</html>

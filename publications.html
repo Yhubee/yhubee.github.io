@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Publications & Writing | Ubong Eno Nkereuwem</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header>
+    <nav>
+      <div class="logo">Ubong Eno Nkereuwem <span>Human–Centered AI</span></div>
+      <div class="nav-links">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="projects.html">Projects</a>
+        <a href="research.html">Research</a>
+        <a href="publications.html">Publications</a>
+        <a href="contact.html">Contact</a>
+      </div>
+      <a class="cta-button" href="mailto:ubongenonkereuwem@gmail.com">Let’s Connect</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div>
+        <h1>Publications & Writing</h1>
+        <p class="tagline">Current working manuscripts, applied research, and writing that bridges AI ethics, HCI principles, and trust-aware design.</p>
+      </div>
+    </section>
+
+    <section class="section">
+      <h2>Academic Positioning Summary</h2>
+      <p class="section-intro">I investigate how AI systems influence human judgment, autonomy, and decision trajectories. My work explores adaptive explanation design, trust calibration, and sociotechnical value alignment, particularly in educational and accessibility contexts.</p>
+      <div class="grid">
+        <div class="card">
+          <h3>Mental Models & Trust Drift</h3>
+          <p>Studying how mental models of AI form and evolve, and how design cues shape reliance over time.</p>
+        </div>
+        <div class="card">
+          <h3>Explanation Strategies</h3>
+          <p>Exploring explanation depth, framing, and uncertainty disclosure that adjust to user cognition and cultural context.</p>
+        </div>
+        <div class="card">
+          <h3>Sociotechnical Fairness</h3>
+          <p>Designing value-sensitive interfaces that keep autonomy visible and balanced across diverse user realities.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <h2>Graduate Research · University of Roehampton</h2>
+      <p class="section-intro">Digital Ordering, Perceived Fairness, and Time Transparency</p>
+      <ul class="list">
+        <li>Identified that perceived wait time is a sociotechnical construct influenced by transparency, predictability, and environmental cues.</li>
+        <li>Mixed-method research integrating qualitative interviews with descriptive analysis.</li>
+        <li>Redesigned a digital food pickup service and projected a 35% reduction in perceived wait time.</li>
+        <li>Highlighted psychological expectation management in service trust and mapped disconnects between physical service realities and digital representations.</li>
+      </ul>
+    </section>
+
+    <section class="section">
+      <h2>Emerging Lines of Inquiry</h2>
+      <div class="grid">
+        <div class="card">
+          <h3>Longitudinal Transparency</h3>
+          <p>Measuring autonomy drift, trust calibration trajectories, and value-alignment stability as ethical UX interventions persist.</p>
+        </div>
+        <div class="card">
+          <h3>Global Learner Ecosystems</h3>
+          <p>Investigating how AI-guided recommendations intersect with cultural and structural inequities in educational access.</p>
+        </div>
+        <div class="card">
+          <h3>Applied Writing</h3>
+          <p>Public-facing newsletter translating AI ethics, HCI principles, and trust-aware design into accessible guidance for early-career technologists.</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    © Ubong Eno Nkereuwem · Human–Centered AI & HCI · <a href="mailto:ubongenonkereuwem@gmail.com">Email</a> · <a href="https://www.linkedin.com/in/ubongeno" target="_blank" rel="noopener">LinkedIn</a>
+  </footer>
+  <script>
+    const path = location.pathname.split('/').pop() || 'index.html';
+    document.querySelectorAll('.nav-links a').forEach(link => {
+      if (link.getAttribute('href') === path) link.classList.add('active');
+    });
+  </script>
+</body>
+</html>

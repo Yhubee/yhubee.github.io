@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contact | Ubong Eno Nkereuwem</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header>
+    <nav>
+      <div class="logo">Ubong Eno Nkereuwem <span>Human–Centered AI</span></div>
+      <div class="nav-links">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="projects.html">Projects</a>
+        <a href="research.html">Research</a>
+        <a href="publications.html">Publications</a>
+        <a href="contact.html">Contact</a>
+      </div>
+      <a class="cta-button" href="mailto:ubongenonkereuwem@gmail.com">Let’s Connect</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div>
+        <h1>Let’s Collaborate</h1>
+        <p class="tagline">Open to discussions on Human–Centered AI research, PhD collaborations, and autonomy-preserving product design.</p>
+      </div>
+    </section>
+
+    <section class="section split">
+      <div>
+        <h2>Contact</h2>
+        <div class="card">
+          <p><strong>Email:</strong> <a href="mailto:ubongenonkereuwem@gmail.com">ubongenonkereuwem@gmail.com</a></p>
+          <p><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/ubongeno" target="_blank" rel="noopener">linkedin.com/in/ubongeno</a></p>
+          <p class="small">Please reach out for research discussions, speaking invitations, or to request my full CV.</p>
+        </div>
+      </div>
+      <div>
+        <h2>Teaching, Mentoring & Leadership</h2>
+        <div class="card">
+          <p>Mentored learners, led youth programs, and taught literacy and life-skills courses to students in Nigeria and the UK. I use writing and public outreach to make AI ethics, HCI principles, and trust-aware design accessible to builders worldwide.</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    © Ubong Eno Nkereuwem · Human–Centered AI & HCI · <a href="mailto:ubongenonkereuwem@gmail.com">Email</a> · <a href="https://www.linkedin.com/in/ubongeno" target="_blank" rel="noopener">LinkedIn</a>
+  </footer>
+  <script>
+    const path = location.pathname.split('/').pop() || 'index.html';
+    document.querySelectorAll('.nav-links a').forEach(link => {
+      if (link.getAttribute('href') === path) link.classList.add('active');
+    });
+  </script>
+</body>
+</html>
