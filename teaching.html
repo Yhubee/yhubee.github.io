@@ -9,15 +9,16 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+    <a class="skip-link" href="#main-content">Skip to content</a>
     <header>
         <div class="container">
             <a href="index.html" class="logo">Ubong Eno Nkereuwem</a>
-            <nav>
+            <nav role="navigation" aria-label="Primary">
                 <a href="index.html">Home</a>
                 <a href="about.html">About</a>
                 <a href="projects.html">Projects</a>
                 <a href="research.html">Research</a>
-                <a href="teaching.html" class="active">Teaching</a>
+                <a href="teaching.html" class="active" aria-current="page">Teaching</a>
                 <a href="why.html">Why This Work</a>
             </nav>
         </div>
@@ -30,7 +31,7 @@
         </div>
     </div>
 
-    <main>
+    <main id="main-content">
         <div class="container">
             <div class="content-wrapper">
                 <p>Teaching and community leadership are foundational to my work as an HCI and Human–Centered AI researcher. My commitment to ethical AI is deeply informed by the years I spent working with learners, youth, and underserved communities. These experiences grounded my understanding of how people actually navigate systems, where confidence breaks down, and how structural and digital inequities shape decision-making.</p>
@@ -124,26 +125,11 @@
 
                 <p class="mt-4">These insights form the human layer beneath my sociotechnical research on AI-supported learning, trust calibration, and value-aligned interaction design.</p>
 
-                <div class="contact-info">
-                    <h3>Get in Touch</h3>
-                    <p>
-                        <a href="mailto:ubongenonkereuwem@gmail.com">ubongenonkereuwem@gmail.com</a>
-                        <br>
-                        <a href="https://www.linkedin.com/in/ubongeno" target="_blank" rel="noopener noreferrer">LinkedIn: linkedin.com/in/ubongeno</a>
-                    </p>
-                </div>
             </div>
         </div>
     </main>
 
-    <footer>
-        <div class="container">
-            <p>&copy; 2024 Ubong Eno Nkereuwem. All rights reserved.</p>
-            <p>
-                <a href="mailto:ubongenonkereuwem@gmail.com">Email</a> · 
-                <a href="https://www.linkedin.com/in/ubongeno" target="_blank" rel="noopener noreferrer">LinkedIn</a>
-            </p>
-        </div>
-    </footer>
+    <div data-include="footer.html"></div>
+    <script src="scripts.js"></script>
 </body>
 </html>

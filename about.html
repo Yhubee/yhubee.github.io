@@ -9,12 +9,13 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+    <a class="skip-link" href="#main-content">Skip to content</a>
     <header>
         <div class="container">
             <a href="index.html" class="logo">Ubong Eno Nkereuwem</a>
-            <nav>
+            <nav role="navigation" aria-label="Primary">
                 <a href="index.html">Home</a>
-                <a href="about.html" class="active">About</a>
+                <a href="about.html" class="active" aria-current="page">About</a>
                 <a href="projects.html">Projects</a>
                 <a href="research.html">Research</a>
                 <a href="teaching.html">Teaching</a>
@@ -30,7 +31,7 @@
         </div>
     </div>
 
-    <main>
+    <main id="main-content">
         <div class="container">
             <div class="content-wrapper">
                 <section class="about-intro">
@@ -121,26 +122,11 @@
                     <p>Her research investigates adaptive explanations, mental model formation, and longitudinal autonomy in human–AI interaction. Ultimately, she aims to develop frameworks that ensure AI systems strengthen human reasoning, preserve dignity, and remain aligned with evolving human values across diverse contexts.</p>
                 </div>
 
-                <div class="contact-info">
-                    <h3>Get in Touch</h3>
-                    <p>
-                        <a href="mailto:ubongenonkereuwem@gmail.com">ubongenonkereuwem@gmail.com</a>
-                        <br>
-                        <a href="https://www.linkedin.com/in/ubongeno" target="_blank" rel="noopener noreferrer">LinkedIn: linkedin.com/in/ubongeno</a>
-                    </p>
-                </div>
             </div>
         </div>
     </main>
 
-    <footer>
-        <div class="container">
-            <p>&copy; 2024 Ubong Eno Nkereuwem. All rights reserved.</p>
-            <p>
-                <a href="mailto:ubongenonkereuwem@gmail.com">Email</a> · 
-                <a href="https://www.linkedin.com/in/ubongeno" target="_blank" rel="noopener noreferrer">LinkedIn</a>
-            </p>
-        </div>
-    </footer>
+    <div data-include="footer.html"></div>
+    <script src="scripts.js"></script>
 </body>
 </html>

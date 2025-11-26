@@ -12,11 +12,12 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+<a class="skip-link" href="#main-content">Skip to content</a>
 <header>
     <div class="container">
         <a href="index.html" class="logo">Ubong Eno Nkereuwem</a>
-        <nav>
-            <a href="index.html" class="active">Home</a>
+        <nav role="navigation" aria-label="Primary">
+            <a href="index.html" class="active" aria-current="page">Home</a>
             <a href="about.html">About</a>
             <a href="projects.html">Projects</a>
             <a href="research.html">Research</a>
@@ -26,16 +27,16 @@
     </div>
 </header>
 
-<section class="hero">
+<section class="hero" aria-labelledby="home-hero-title">
     <div class="container">
-        <img src="content/assets/ubong-headshot.jpeg" alt="Ubong Eno Nkereuwem" class="hero-image">
-        <h1>Ubong Eno Nkereuwem</h1>
+        <img src="content/assets/ubong-headshot.jpeg" alt="Portrait of Ubong Eno Nkereuwem" class="hero-image">
+        <h1 id="home-hero-title">Ubong Eno Nkereuwem</h1>
         <p class="subtitle">Human–Centered Researcher • Technical AI Product Manager • HCI Practitioner</p>
         <p class="tagline">Focused on Trust, Autonomy, and Sociotechnical Intelligence</p>
     </div>
 </section>
 
-<main>
+<main id="main-content">
     <div class="container">
         <section class="section">
             <div class="content-wrapper">
@@ -131,28 +132,10 @@
             </div>
         </section>
 
-        <section class="section">
-            <div class="contact-info">
-                <h3>Contact</h3>
-                <p>
-                    <a href="mailto:ubongenonkereuwem@gmail.com">ubongenonkereuwem@gmail.com</a>
-                    <br>
-                    <a href="https://www.linkedin.com/in/ubongeno" target="_blank" rel="noopener noreferrer">LinkedIn:
-                        linkedin.com/in/ubongeno</a>
-                </p>
-            </div>
-        </section>
     </div>
 </main>
 
-<footer>
-    <div class="container">
-        <p>&copy; 2024 Ubong Eno Nkereuwem. All rights reserved.</p>
-        <p>
-            <a href="mailto:ubongenonkereuwem@gmail.com">Email</a> ·
-            <a href="https://www.linkedin.com/in/ubongeno" target="_blank" rel="noopener noreferrer">LinkedIn</a>
-        </p>
-    </div>
-</footer>
+<div data-include="footer.html"></div>
+<script src="scripts.js"></script>
 </body>
 </html>
