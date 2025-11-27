@@ -20,6 +20,7 @@
                 <a href="research.html" class="active" aria-current="page">Research</a>
                 <a href="teaching.html">Teaching</a>
                 <a href="why.html">Why This Work</a>
+                <a href="index.html#contact">Contact</a>
             </nav>
         </div>
     </header>
@@ -42,10 +43,12 @@
 
                 <h2>Research Themes</h2>
 
-                <div class="theme-card">
-                    <h3>1. Mental Model Formation in Human–AI Interaction</h3>
-                    <details class="theme-details">
-                        <summary>View details on this theme</summary>
+                <section class="research-theme theme-card">
+                    <button class="accordion-toggle" type="button" aria-expanded="false" aria-controls="theme-mental-models">
+                        <span class="accordion-title">1. Mental Model Formation in Human–AI Interaction</span>
+                        <span class="accordion-icon" aria-hidden="true">▸</span>
+                    </button>
+                    <div id="theme-mental-models" class="accordion-panel" hidden>
                         <p>A central line of inquiry in my work explores how users form and update mental models of AI systems. I study how:</p>
                         <ul>
                             <li>confidence signals</li>
@@ -56,15 +59,19 @@
                             <li>cultural and cognitive context</li>
                         </ul>
                         <p>shape the mental models that users build about system competence, limitations, and intent.</p>
-                        <p>This interest began with a striking applied observation: in a test session, a neurodivergent user trusted an AI system implicitly—even when its suggestions contradicted her preferences—because the system appeared "confident." This moment illuminated the subtle cognitive pathways through which AI can displace human judgment.</p>
+                        <div class="insight-box">
+                            <p>This interest began with a striking applied observation: in a test session, a neurodivergent user trusted an AI system implicitly—even when its suggestions contradicted her preferences—because the system appeared "confident." This moment illuminated the subtle cognitive pathways through which AI can displace human judgment.</p>
+                        </div>
                         <p>I explore how design interventions—such as transparency cues, qualified suggestions, or revealed limitations—can support more accurate mental models.</p>
-                    </details>
-                </div>
+                    </div>
+                </section>
 
-                <div class="theme-card">
-                    <h3>2. Trust Calibration and Autonomy Preservation</h3>
-                    <details class="theme-details">
-                        <summary>View details on calibrated trust</summary>
+                <section class="research-theme theme-card">
+                    <button class="accordion-toggle" type="button" aria-expanded="false" aria-controls="theme-trust">
+                        <span class="accordion-title">2. Trust Calibration and Autonomy Preservation</span>
+                        <span class="accordion-icon" aria-hidden="true">▸</span>
+                    </button>
+                    <div id="theme-trust" class="accordion-panel" hidden>
                         <p>Trust in AI systems is often miscalibrated:</p>
                         <ul>
                             <li><strong>over-trust</strong> when users assume correctness based on perceived authority</li>
@@ -79,13 +86,15 @@
                             <li>design patterns that strengthen user sense of control</li>
                         </ul>
                         <p>This aligns with my professional work building value-sensitive defaults, user-managed settings, rationale explanations, and guardrails within AI-guided advising systems.</p>
-                    </details>
-                </div>
+                    </div>
+                </section>
 
-                <div class="theme-card">
-                    <h3>3. Adaptive Explanation Design</h3>
-                    <details class="theme-details">
-                        <summary>View details on explanation research</summary>
+                <section class="research-theme theme-card">
+                    <button class="accordion-toggle" type="button" aria-expanded="false" aria-controls="theme-explanations">
+                        <span class="accordion-title">3. Adaptive Explanation Design</span>
+                        <span class="accordion-icon" aria-hidden="true">▸</span>
+                    </button>
+                    <div id="theme-explanations" class="accordion-panel" hidden>
                         <p>Not all users benefit from the same explanation style or depth. My research investigates:</p>
                         <ul>
                             <li>cognitively adaptive explanations</li>
@@ -95,13 +104,15 @@
                             <li>how to support reflection without overwhelming users</li>
                         </ul>
                         <p>This connects to my work designing explanation schemas for EdTech systems that adjust based on question type, risk level, user uncertainty, and narrative cues.</p>
-                    </details>
-                </div>
+                    </div>
+                </section>
 
-                <div class="theme-card">
-                    <h3>4. Sociotechnical Fairness in AI-Supported Decision Systems</h3>
-                    <details class="theme-details">
-                        <summary>View details on fairness</summary>
+                <section class="research-theme theme-card">
+                    <button class="accordion-toggle" type="button" aria-expanded="false" aria-controls="theme-fairness">
+                        <span class="accordion-title">4. Sociotechnical Fairness in AI-Supported Decision Systems</span>
+                        <span class="accordion-icon" aria-hidden="true">▸</span>
+                    </button>
+                    <div id="theme-fairness" class="accordion-panel" hidden>
                         <p>Much of my research concerns decision-support systems in education—an emotionally and socially consequential domain.</p>
                         <p>I study:</p>
                         <ul>
@@ -110,14 +121,16 @@
                             <li>where bias can emerge from dataset construction (CSR labeling work)</li>
                             <li>how algorithmic recommendations intersect with cultural and structural inequities</li>
                         </ul>
-                        <p>My work aims to develop frameworks for sociotechnical fairness that are not only mathematically grounded but also contextually aware and ethically interpretable.</p>
-                    </details>
-                </div>
+                        <p>My work includes analyzing how algorithmic guidance affects international students navigating complex immigration, funding, and academic pathways.</p>
+                    </div>
+                </section>
 
-                <div class="theme-card">
-                    <h3>5. Longitudinal Impact of Transparency and Ethical UX Interventions</h3>
-                    <details class="theme-details">
-                        <summary>View details on longitudinal impact</summary>
+                <section class="research-theme theme-card">
+                    <button class="accordion-toggle" type="button" aria-expanded="false" aria-controls="theme-longitudinal">
+                        <span class="accordion-title">5. Longitudinal Impact of Transparency and Ethical UX Interventions</span>
+                        <span class="accordion-icon" aria-hidden="true">▸</span>
+                    </button>
+                    <div id="theme-longitudinal" class="accordion-panel" hidden>
                         <p>A rarely studied aspect of Human–Centered AI is the long-term effect of transparency interventions.</p>
                         <p>Industry often implements:</p>
                         <ul>
@@ -136,8 +149,8 @@
                             <li>cognitive fatigue and over-reliance over long-term system use</li>
                         </ul>
                         <p>This theme emerges directly from a core insight: <strong>bridging the gap between ethical intention and measurable impact.</strong></p>
-                    </details>
-                </div>
+                    </div>
+                </section>
 
                 <hr>
 
