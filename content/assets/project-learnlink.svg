@@ -1,0 +1,15 @@
+<svg width="240" height="160" viewBox="0 0 240 160" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect x="8" y="8" width="224" height="144" rx="16" fill="#F3F6FF" stroke="#1F4B99" stroke-width="3"/>
+  <rect x="32" y="32" width="176" height="40" rx="8" fill="#DDE7FF" stroke="#1F4B99" stroke-width="2"/>
+  <rect x="32" y="88" width="80" height="40" rx="8" fill="#E9F5E9" stroke="#2F855A" stroke-width="2"/>
+  <rect x="128" y="88" width="80" height="40" rx="8" fill="#FFF5E6" stroke="#C05621" stroke-width="2"/>
+  <circle cx="80" cy="52" r="12" fill="#2F855A"/>
+  <circle cx="120" cy="52" r="12" fill="#1F4B99"/>
+  <circle cx="160" cy="52" r="12" fill="#C05621"/>
+  <path d="M72 108h32" stroke="#2F855A" stroke-width="4" stroke-linecap="round"/>
+  <path d="M136 108h32" stroke="#C05621" stroke-width="4" stroke-linecap="round"/>
+  <path d="M112 52h16" stroke="white" stroke-width="4" stroke-linecap="round"/>
+  <path d="M88 52h-8" stroke="white" stroke-width="4" stroke-linecap="round"/>
+  <path d="M152 52h-8" stroke="white" stroke-width="4" stroke-linecap="round"/>
+  <path d="M52 120h136" stroke="#1F4B99" stroke-width="2" stroke-dasharray="6 6"/>
+</svg>
