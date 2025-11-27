@@ -1,0 +1,39 @@
+<svg width="1200" height="700" viewBox="0 0 1200 700" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">LearnLink community skill exchange illustration</title>
+  <desc id="desc">Neighbors exchanging skills through a connected, transparent platform.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ecfeff"/>
+      <stop offset="100%" stop-color="#dbeafe"/>
+    </linearGradient>
+    <linearGradient id="node" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0284c7"/>
+      <stop offset="100%" stop-color="#22d3ee"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="700" fill="url(#bg)" rx="32"/>
+  <g transform="translate(120 120)">
+    <rect x="520" y="60" width="420" height="360" rx="24" fill="#0ea5e9" opacity="0.08" stroke="#38bdf8" stroke-width="2" stroke-dasharray="12 10"/>
+    <circle cx="190" cy="140" r="70" fill="url(#node)" opacity="0.85"/>
+    <circle cx="420" cy="300" r="60" fill="#f97316" opacity="0.9"/>
+    <circle cx="720" cy="200" r="68" fill="#10b981" opacity="0.85"/>
+    <circle cx="880" cy="320" r="50" fill="#6366f1" opacity="0.8"/>
+    <path d="M240 190 C 320 230, 350 250, 400 260" stroke="#0ea5e9" stroke-width="10" fill="none" stroke-linecap="round" opacity="0.6"/>
+    <path d="M470 270 C 580 240, 650 230, 690 220" stroke="#f97316" stroke-width="10" fill="none" stroke-linecap="round" opacity="0.55"/>
+    <path d="M460 320 C 600 340, 740 360, 850 330" stroke="#22c55e" stroke-width="10" fill="none" stroke-linecap="round" opacity="0.55"/>
+    <path d="M220 180 C 330 120, 520 120, 700 170" stroke="#6366f1" stroke-width="10" fill="none" stroke-linecap="round" opacity="0.35"/>
+    <g fill="#fff" font-family="'Inter', sans-serif" font-weight="700" text-anchor="middle">
+      <text x="190" y="145" font-size="28">Teach</text>
+      <text x="420" y="305" font-size="26">Learn</text>
+      <text x="720" y="205" font-size="28">Swap</text>
+      <text x="880" y="325" font-size="22">Track</text>
+    </g>
+    <rect x="150" y="360" width="360" height="110" rx="18" fill="#fff" opacity="0.95" stroke="#bae6fd" stroke-width="2"/>
+    <text x="180" y="400" fill="#0f172a" font-family="'Inter', sans-serif" font-size="22" font-weight="700">Community Dashboard</text>
+    <text x="180" y="435" fill="#0ea5e9" font-family="'Inter', sans-serif" font-size="18">Skill matches · Time credits · Trust signals</text>
+    <rect x="520" y="430" width="220" height="18" rx="9" fill="#22d3ee" opacity="0.4"/>
+    <rect x="520" y="460" width="260" height="18" rx="9" fill="#38bdf8" opacity="0.4"/>
+  </g>
+  <text x="140" y="620" fill="#0f172a" font-family="'Inter', sans-serif" font-size="36" font-weight="700">LearnLink — peer-to-peer skill exchanges</text>
+  <text x="140" y="660" fill="#475569" font-family="'Inter', sans-serif" font-size="22">Neighbors swap teaching time instead of cash, guided by transparent matches and dashboards.</text>
+</svg>
