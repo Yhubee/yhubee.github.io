@@ -448,6 +448,48 @@ main {
     font-size: 1.1rem;
 }
 
+/* Project list improvements */
+
+.project-icon {
+    display: block;
+    max-width: 80px;
+    height: auto;
+    margin-bottom: 0.25rem;
+}
+
+/* Make role/domains easier to read on narrow screens */
+.projects-role-domains {
+    display: block;
+    margin: 0.25rem 0 0.25rem;
+    font-size: 0.9rem;
+    color: #555;
+}
+
+.project-read-more {
+    margin: 0 0 1rem;
+    font-size: 0.9rem;
+}
+
+.project-read-more a {
+    color: #0050a4;
+    text-decoration: underline;
+}
+
+/* Mobile-friendly adjustments */
+@media (max-width: 768px) {
+    .project-icon {
+        max-width: 60px;
+    }
+
+    h3, h4 {
+        margin-top: 0.35rem;
+    }
+
+    .project-read-more {
+        margin-bottom: 1.25rem;
+    }
+}
+
 /* Project detail pages */
 .project-hero {
     margin: 1.5rem 0 2rem;
