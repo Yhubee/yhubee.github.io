@@ -28,7 +28,7 @@ This site is optimized for GitHub Pages and requires no build step.
 ```
 ├── index.html          # Homepage with introduction and navigation
 ├── about.html          # About Me page with background
-├── projects.html       # Projects & Case Studies
+├── projects.html       # Selected Projects
 ├── research.html       # Research themes and methodological approach
 ├── teaching.html       # Teaching, Mentoring & Leadership experience
 ├── why.html            # Motivation and purpose behind the research
