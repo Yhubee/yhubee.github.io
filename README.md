@@ -27,11 +27,10 @@ This site is optimized for GitHub Pages and requires no build step.
 
 ```
 ├── index.html          # Homepage with introduction and navigation
-├── about.html          # About Me page with background and bios
+├── about.html          # About Me page with background
 ├── projects.html       # Projects & Case Studies
 ├── research.html       # Research themes and methodological approach
 ├── teaching.html       # Teaching, Mentoring & Leadership experience
-├── why.html            # Motivation and purpose behind the research
 ├── styles.css          # Single CSS file for all styling
 ├── README.md           # This file
 └── content/
